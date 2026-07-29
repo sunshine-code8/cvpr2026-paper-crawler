@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cvpr2026-paper-crawler"
+version = "1.0.0"
+description = "抓取并按关键词分类 CVPR 2026 全部接收论文"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "beautifulsoup4>=4.12,<5",
+  "httpx>=0.27,<1",
+  "PyYAML>=6.0,<7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+cvpr2026 = "cvpr2026_crawler.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+

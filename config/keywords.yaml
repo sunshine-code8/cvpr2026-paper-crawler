@@ -1,0 +1,314 @@
+# 按标题和摘要进行不区分大小写的精确词组匹配。
+# 一篇论文可以同时进入多个分类；可直接增删分类或关键词。
+categories:
+  - name: "视觉语言与多模态"
+    description: "视觉语言模型、多模态大模型、视觉问答、图文检索与跨模态推理。"
+    keywords:
+      - vision-language
+      - vision language
+      - visual language
+      - multimodal
+      - multi-modal
+      - VLM
+      - LVLM
+      - visual question answering
+      - VQA
+      - image-text
+      - text-image
+      - cross-modal
+      - grounded language
+      - visual reasoning
+      - multimodal large language model
+
+  - name: "生成模型与内容生成"
+    description: "扩散模型、流匹配，以及图像、视频和 3D 内容生成。"
+    keywords:
+      - diffusion
+      - flow matching
+      - generative model
+      - text-to-image
+      - image-to-image
+      - text-to-video
+      - image-to-video
+      - video generation
+      - image generation
+      - visual generation
+      - generative adversarial
+      - GAN
+      - autoregressive generation
+      - controllable generation
+      - world model
+
+  - name: "三维视觉与重建"
+    description: "三维重建、点云、神经渲染、Gaussian Splatting、NeRF 与几何理解。"
+    keywords:
+      - 3D
+      - three-dimensional
+      - point cloud
+      - point-cloud
+      - reconstruction
+      - neural rendering
+      - novel view synthesis
+      - gaussian splatting
+      - 3DGS
+      - NeRF
+      - radiance field
+      - mesh
+      - depth estimation
+      - monocular depth
+      - multi-view
+      - multiview
+      - structure from motion
+      - shape reconstruction
+
+  - name: "检测、分割与识别"
+    description: "目标检测、开放词汇识别、语义/实例/全景分割和细粒度识别。"
+    keywords:
+      - object detection
+      - object detector
+      - open-vocabulary
+      - open vocabulary
+      - open-world
+      - semantic segmentation
+      - instance segmentation
+      - panoptic segmentation
+      - image segmentation
+      - object segmentation
+      - referring segmentation
+      - recognition
+      - image classification
+      - visual recognition
+      - fine-grained
+
+  - name: "视频理解与时序建模"
+    description: "视频识别、动作理解、时序定位、视频摘要和运动分析。"
+    keywords:
+      - video understanding
+      - video recognition
+      - action recognition
+      - action detection
+      - temporal action
+      - temporal grounding
+      - temporal localization
+      - video captioning
+      - video retrieval
+      - video segmentation
+      - video representation
+      - video-language
+      - motion understanding
+      - long video
+
+  - name: "人体、姿态与数字人"
+    description: "人体姿态、手势、人体网格、虚拟人、头像、脸部及人体运动。"
+    keywords:
+      - human pose
+      - pose estimation
+      - body pose
+      - hand pose
+      - human mesh
+      - human motion
+      - motion capture
+      - avatar
+      - digital human
+      - talking head
+      - face recognition
+      - facial
+      - face
+      - gesture
+      - SMPL
+
+  - name: "自动驾驶与智能交通"
+    description: "自动驾驶感知、占据预测、轨迹预测、规划和交通场景理解。"
+    keywords:
+      - autonomous driving
+      - self-driving
+      - autonomous vehicle
+      - driving scene
+      - driving
+      - BEV
+      - bird's-eye-view
+      - occupancy prediction
+      - occupancy network
+      - trajectory prediction
+      - motion forecasting
+      - lane detection
+      - HD map
+      - traffic
+
+  - name: "机器人与具身智能"
+    description: "视觉机器人、操作、导航、具身智能和视觉语言动作模型。"
+    keywords:
+      - robotics
+      - robot
+      - robotic manipulation
+      - manipulation
+      - embodied
+      - navigation
+      - vision-language-action
+      - vision language action
+      - VLA
+      - grasping
+      - locomotion
+      - agent
+      - policy learning
+
+  - name: "跟踪与运动估计"
+    description: "单/多目标跟踪、光流、场景流、对应关系和相机运动估计。"
+    keywords:
+      - object tracking
+      - visual tracking
+      - multi-object tracking
+      - multiple object tracking
+      - tracking
+      - optical flow
+      - scene flow
+      - motion estimation
+      - correspondence
+      - camera pose
+      - visual odometry
+      - SLAM
+
+  - name: "图像增强与底层视觉"
+    description: "超分辨率、去噪、去模糊、低光增强、压缩和图像恢复。"
+    keywords:
+      - super-resolution
+      - super resolution
+      - image restoration
+      - image enhancement
+      - image denoising
+      - denoising
+      - deblurring
+      - low-light
+      - low light
+      - deraining
+      - dehazing
+      - image compression
+      - video compression
+      - HDR
+      - inpainting
+
+  - name: "自监督、表示与迁移学习"
+    description: "自监督/半监督学习、领域适应、持续学习、少样本学习和表示学习。"
+    keywords:
+      - self-supervised
+      - self supervised
+      - semi-supervised
+      - unsupervised
+      - representation learning
+      - contrastive learning
+      - domain adaptation
+      - domain generalization
+      - transfer learning
+      - few-shot
+      - zero-shot
+      - continual learning
+      - test-time adaptation
+      - test time adaptation
+      - long-tailed
+
+  - name: "高效模型与压缩"
+    description: "模型压缩、量化、剪枝、蒸馏和高效视觉架构。"
+    keywords:
+      - efficient
+      - efficiency
+      - model compression
+      - quantization
+      - pruning
+      - knowledge distillation
+      - distillation
+      - lightweight
+      - low-rank
+      - sparse
+      - edge device
+      - mobile
+
+  - name: "医学与生物视觉"
+    description: "医学影像、临床视觉、显微镜、病理和生物图像分析。"
+    keywords:
+      - medical image
+      - medical imaging
+      - clinical
+      - radiology
+      - MRI
+      - CT
+      - ultrasound
+      - pathology
+      - histopathology
+      - microscopy
+      - cell
+      - biological
+      - lesion
+      - tumor
+
+  - name: "遥感与地球观测"
+    description: "卫星、航空影像、遥感、地理空间理解和地球观测。"
+    keywords:
+      - remote sensing
+      - satellite
+      - aerial image
+      - aerial imagery
+      - geospatial
+      - earth observation
+      - hyperspectral
+      - multispectral
+      - SAR
+
+  - name: "数据集、评测与合成数据"
+    description: "新数据集、基准、评测协议、数据整理和合成数据。"
+    keywords:
+      - dataset
+      - benchmark
+      - evaluation
+      - challenge
+      - data curation
+      - data annotation
+      - synthetic data
+      - data engine
+      - data-centric
+
+  - name: "可信、安全与可解释视觉"
+    description: "对抗鲁棒性、隐私、公平性、可解释性、伪造检测和 AI 安全。"
+    keywords:
+      - adversarial
+      - robustness
+      - robust
+      - trustworthy
+      - explainable
+      - interpretability
+      - privacy
+      - fairness
+      - bias
+      - safety
+      - hallucination
+      - deepfake
+      - forgery detection
+      - watermark
+
+  - name: "文档、文字与OCR"
+    description: "OCR、场景文字、文档理解、版面分析和公式识别。"
+    keywords:
+      - OCR
+      - optical character recognition
+      - scene text
+      - text recognition
+      - document understanding
+      - document analysis
+      - document layout
+      - table recognition
+      - handwriting
+      - formula recognition
+
+  - name: "事件相机与计算成像"
+    description: "事件视觉、成像系统、逆问题、神经相机与光学设计。"
+    keywords:
+      - event camera
+      - event-based
+      - event vision
+      - computational imaging
+      - inverse imaging
+      - coded aperture
+      - lensless
+      - neural camera
+      - imaging system
+      - ISP
+
