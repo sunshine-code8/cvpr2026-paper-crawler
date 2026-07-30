@@ -59,9 +59,16 @@ def export_markdown(
     papers: list[Paper],
     categories: list[Category],
     path: Path | str,
+    *,
+    page_size: int = 300,
 ) -> None:
     target = Path(path)
     target.parent.mkdir(parents=True, exist_ok=True)
+    category_dir = target.parent / "categories"
+    category_dir.mkdir(parents=True, exist_ok=True)
+    for stale_file in category_dir.glob("category-*.md"):
+        stale_file.unlink()
+
     grouped: dict[str, list[Paper]] = defaultdict(list)
     for paper in papers:
         for category in paper.categories:
@@ -91,26 +98,67 @@ def export_markdown(
         if counts[name]:
             lines.append(f"| {name} | {counts[name]} |")
 
-    lines.extend(["", "> 同一篇论文可能属于多个分类，因此分类数之和可能大于论文总数。", ""])
+    lines.extend(
+        [
+            "",
+            "> 同一篇论文可能属于多个分类，因此分类数之和可能大于论文总数。",
+            "",
+            "## 分类论文列表",
+            "",
+            "为保证 GitHub 可以流畅渲染，每个分类按最多 "
+            f"{page_size} 篇论文分页。",
+            "",
+        ]
+    )
     descriptions = {category.name: category.description for category in categories}
-    for name in ordered_names:
+    for category_index, name in enumerate(ordered_names, start=1):
         category_papers = sorted(grouped.get(name, []), key=lambda item: item.title.lower())
         if not category_papers:
             continue
-        lines.extend([f"## {name} ({len(category_papers)})", ""])
-        if descriptions.get(name):
-            lines.extend([descriptions[name], ""])
-        for paper in category_papers:
-            title = paper.title.replace("[", r"\[").replace("]", r"\]")
-            links = [f"[主页]({paper.paper_url})"]
-            if paper.pdf_url:
-                links.append(f"[PDF]({paper.pdf_url})")
-            matched = ", ".join(paper.matched_keywords.get(name, []))
-            suffix = f" — 命中：`{matched}`" if matched else ""
-            lines.append(f"- **[{title}]({paper.paper_url})** ({' / '.join(links)}){suffix}")
-            if paper.authors:
-                lines.append(f"  - 作者：{', '.join(paper.authors)}")
-        lines.append("")
+
+        page_links: list[str] = []
+        for page_number, start in enumerate(
+            range(0, len(category_papers), page_size), start=1
+        ):
+            page = category_papers[start : start + page_size]
+            filename = (
+                f"category-{category_index:02d}-part-{page_number:02d}.md"
+            )
+            page_target = category_dir / filename
+            end = start + len(page)
+            page_lines = [
+                f"# {name}",
+                "",
+                f"- 本页范围：{start + 1}–{end}",
+                f"- 分类总数：{len(category_papers)}",
+                f"- 返回：[分类索引](../README.md)",
+                "",
+            ]
+            if descriptions.get(name):
+                page_lines.extend([descriptions[name], ""])
+            for paper in page:
+                title = paper.title.replace("[", r"\[").replace("]", r"\]")
+                links = [f"[主页]({paper.paper_url})"]
+                if paper.pdf_url:
+                    links.append(f"[PDF]({paper.pdf_url})")
+                matched = ", ".join(paper.matched_keywords.get(name, []))
+                suffix = f" — 命中：`{matched}`" if matched else ""
+                page_lines.append(
+                    f"- **[{title}]({paper.paper_url})** "
+                    f"({' / '.join(links)}){suffix}"
+                )
+                if paper.authors:
+                    page_lines.append(f"  - 作者：{', '.join(paper.authors)}")
+            page_target.write_text(
+                "\n".join(page_lines).rstrip() + "\n", encoding="utf-8"
+            )
+            page_links.append(
+                f"[{start + 1}–{end}](categories/{filename})"
+            )
+
+        lines.append(
+            f"- **{name}（{len(category_papers)}）**："
+            + " · ".join(page_links)
+        )
 
     target.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
-
