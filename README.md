@@ -7,7 +7,8 @@
 
 - `output/papers.json`：完整结构化数据，适合程序读取；
 - `output/papers.csv`：UTF-8 BOM 编码，可直接用 Excel 打开；
-- `output/README.md`：分类统计和按类别整理的论文清单，适合 GitHub 浏览。
+- `output/README.md`：分类统计与分页索引，适合 GitHub 浏览；
+- `output/categories/*.md`：每个分类最多 300 篇一页的论文列表。
 
 > 数据范围是 CVF OpenAccess 收录的 **CVPR 2026 主会论文**，不混入 CVPRW
 > workshop 论文。论文版权归作者或相应权利人所有，本工具只保存元数据和官方链接，
@@ -240,4 +241,3 @@ cvpr2026 \
 ## License
 
 [MIT](LICENSE)
-
