@@ -2,7 +2,7 @@
 
 - 论文总数：**4068**
 - 分类方式：标题 + 摘要关键词，多标签归类
-- 生成时间：2026-07-30 02:49 UTC
+- 生成时间：2026-08-03 06:39 UTC
 - 官方来源：[CVF OpenAccess](https://openaccess.thecvf.com/CVPR2026?day=all)
 
 ## 分类统计
