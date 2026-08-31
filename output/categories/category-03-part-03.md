@@ -1,13 +1,11 @@
 # 三维视觉与重建
 
 - 本页范围：601–900
-- 分类总数：1386
+- 分类总数：1382
 - 返回：[分类索引](../README.md)
 
 三维重建、点云、神经渲染、Gaussian Splatting、NeRF 与几何理解。
 
-- **[Lafite: A Generative Latent Field for 3D Native Texturing](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Lafite_A_Generative_Latent_Field_for_3D_Native_Texturing_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Lafite_A_Generative_Latent_Field_for_3D_Native_Texturing_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_Lafite_A_Generative_Latent_Field_for_3D_Native_Texturing_CVPR_2026_paper.pdf)) — 命中：`3D, reconstruction, mesh, multi-view`
-  - 作者：Chia-Hao Chen, Yuan-Chen Guo, Zi-Xin Zou, Ze Yuan, Guan Luo, Xiaojuan Qi, Ding Liang, Yan-Pei Cao, Song-Hai Zhang
 - **[LagerNVS: Latent Geometry for Fully Neural Real-time Novel View Synthesis](https://openaccess.thecvf.com/content/CVPR2026/html/Szymanowicz_LagerNVS_Latent_Geometry_for_Fully_Neural_Real-time_Novel_View_Synthesis_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Szymanowicz_LagerNVS_Latent_Geometry_for_Fully_Neural_Real-time_Novel_View_Synthesis_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Szymanowicz_LagerNVS_Latent_Geometry_for_Fully_Neural_Real-time_Novel_View_Synthesis_CVPR_2026_paper.pdf)) — 命中：`3D, reconstruction, novel view synthesis`
   - 作者：Stanislaw Szymanowicz, Minghao Chen, Jianyuan Wang, Christian Rupprecht, Andrea Vedaldi
 - **[LAM: Language Articulated Object Modelers](https://openaccess.thecvf.com/content/CVPR2026/html/Gao_LAM_Language_Articulated_Object_Modelers_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Gao_LAM_Language_Articulated_Object_Modelers_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Gao_LAM_Language_Articulated_Object_Modelers_CVPR_2026_paper.pdf)) — 命中：`3D`
@@ -606,3 +604,5 @@
   - 作者：Xiaoya Cheng, Long Wang, Yan Liu, Xinyi Liu, Hanlin Tan, Yu Liu, Maojun Zhang, Shen Yan
 - **[PIX-TAB: Efficient PIXel-Precise TABle Structure Recognition Approach with Speculative Decoding and Region-Based Image Segmentation](https://openaccess.thecvf.com/content/CVPR2026/html/Zaytsev_PIX-TAB_Efficient_PIXel-Precise_TABle_Structure_Recognition_Approach_with_Speculative_Decoding_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Zaytsev_PIX-TAB_Efficient_PIXel-Precise_TABle_Structure_Recognition_Approach_with_Speculative_Decoding_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Zaytsev_PIX-TAB_Efficient_PIXel-Precise_TABle_Structure_Recognition_Approach_with_Speculative_Decoding_CVPR_2026_paper.pdf)) — 命中：`reconstruction`
   - 作者：Viktor Zaytsev, Olena Vynokurova, Pavlo Tytarchuk, Dmytro Kozii, Vitalii Pohribnyi, Olga Radyvonenko, Artem Shcherbina
+- **[PixARMesh: Autoregressive Mesh-Native Single-View Scene Reconstruction](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_PixARMesh_Autoregressive_Mesh-Native_Single-View_Scene_Reconstruction_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_PixARMesh_Autoregressive_Mesh-Native_Single-View_Scene_Reconstruction_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_PixARMesh_Autoregressive_Mesh-Native_Single-View_Scene_Reconstruction_CVPR_2026_paper.pdf)) — 命中：`3D, point-cloud, reconstruction, mesh`
+  - 作者：Xiang Zhang, Sohyun Yoo, Hongrui Wu, Chuan Li, Jianwen Xie, Zhuowen Tu

@@ -1,7 +1,7 @@
 # 跟踪与运动估计
 
 - 本页范围：1–300
-- 分类总数：367
+- 分类总数：365
 - 返回：[分类索引](../README.md)
 
 单/多目标跟踪、光流、场景流、对应关系和相机运动估计。
@@ -42,8 +42,6 @@
   - 作者：Shihua Zhang, Qiuhong Shen, Xinchao Wang
 - **[AMB3R: Accurate Feed-forward Metric-scale 3D Reconstruction with Backend](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_AMB3R_Accurate_Feed-forward_Metric-scale_3D_Reconstruction_with_Backend_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_AMB3R_Accurate_Feed-forward_Metric-scale_3D_Reconstruction_with_Backend_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_AMB3R_Accurate_Feed-forward_Metric-scale_3D_Reconstruction_with_Backend_CVPR_2026_paper.pdf)) — 命中：`camera pose, visual odometry, SLAM`
   - 作者：Hengyi Wang, Lourdes Agapito
-- **[AMusE: Audio-Visual Benchmark and Alignment Framework for Agentic Multi-Speaker Understanding](https://openaccess.thecvf.com/content/CVPR2026/html/Chowdhury_AMusE_Audio-Visual_Benchmark_and_Alignment_Framework_for_Agentic_Multi-Speaker_Understanding_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Chowdhury_AMusE_Audio-Visual_Benchmark_and_Alignment_Framework_for_Agentic_Multi-Speaker_Understanding_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Chowdhury_AMusE_Audio-Visual_Benchmark_and_Alignment_Framework_for_Agentic_Multi-Speaker_Understanding_CVPR_2026_paper.pdf)) — 命中：`tracking`
-  - 作者：Sanjoy Chowdhury, Karren D Yang, Xudong Liu, Fartash Faghri, Pavan Kumar Anasosalu Vasu, Oncel Tuzel, Dinesh Manocha, Chun-Liang Li, Raviteja Vemulapalli
 - **[An Efficient Token Compression Framework for Visual Object Tracking](https://openaccess.thecvf.com/content/CVPR2026/html/Wu_An_Efficient_Token_Compression_Framework_for_Visual_Object_Tracking_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Wu_An_Efficient_Token_Compression_Framework_for_Visual_Object_Tracking_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_An_Efficient_Token_Compression_Framework_for_Visual_Object_Tracking_CVPR_2026_paper.pdf)) — 命中：`object tracking, visual tracking, tracking`
   - 作者：Weijing Wu, Qihua Liang, Bineng Zhong, Haiying Xia, Zhiyi Mo, Shuxiang Song
 - **[AnthroTAP: Learning Point Tracking with Real-World Motion](https://openaccess.thecvf.com/content/CVPR2026/html/Kim_AnthroTAP_Learning_Point_Tracking_with_Real-World_Motion_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Kim_AnthroTAP_Learning_Point_Tracking_with_Real-World_Motion_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Kim_AnthroTAP_Learning_Point_Tracking_with_Real-World_Motion_CVPR_2026_paper.pdf)) — 命中：`tracking, optical flow`
@@ -606,3 +604,5 @@
   - 作者：Yinuo Jiang, Jun Cheng, Yiran Wang, Cheng Cheng
 - **[SpikeTrack: A Spike-driven Framework for Efficient Visual Tracking](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_SpikeTrack_A_Spike-driven_Framework_for_Efficient_Visual_Tracking_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_SpikeTrack_A_Spike-driven_Framework_for_Efficient_Visual_Tracking_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_SpikeTrack_A_Spike-driven_Framework_for_Efficient_Visual_Tracking_CVPR_2026_paper.pdf)) — 命中：`object tracking, visual tracking, tracking`
   - 作者：Qiuyang Zhang, Jiujun Cheng, Qichao Mao, Cong Liu, Yu Fang, Yuhong Li, Mengying Ge, Shangce Gao
+- **[SpikeTrack: High-performance and Energy-efficient Event-Based Object Tracking with Spiking Neural Network](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_SpikeTrack_High-performance_and_Energy-efficient_Event-Based_Object_Tracking_with_Spiking_Neural_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_SpikeTrack_High-performance_and_Energy-efficient_Event-Based_Object_Tracking_with_Spiking_Neural_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_SpikeTrack_High-performance_and_Energy-efficient_Event-Based_Object_Tracking_with_Spiking_Neural_CVPR_2026_paper.pdf)) — 命中：`object tracking, tracking`
+  - 作者：Yang Wang, Jiqing Zhang, Chuanyu Sun, Qianhui Liu, Huilin Ge, Ziqi Wei, Xin Yang

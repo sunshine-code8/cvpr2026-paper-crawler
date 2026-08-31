@@ -1,15 +1,11 @@
 # 人体、姿态与数字人
 
-- 本页范围：301–428
-- 分类总数：428
+- 本页范围：301–426
+- 分类总数：426
 - 返回：[分类索引](../README.md)
 
 人体姿态、手势、人体网格、虚拟人、头像、脸部及人体运动。
 
-- **[PoseAnything: General Pose-guided Video Generation with Part-aware Temporal Coherence](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_PoseAnything_General_Pose-guided_Video_Generation_with_Part-aware_Temporal_Coherence_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_PoseAnything_General_Pose-guided_Video_Generation_with_Part-aware_Temporal_Coherence_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_PoseAnything_General_Pose-guided_Video_Generation_with_Part-aware_Temporal_Coherence_CVPR_2026_paper.pdf)) — 命中：`human pose`
-  - 作者：Ruiyan Wang, Teng Hu, Kaihui Huang, Zihan Su, Ran Yi, Lizhuang Ma
-- **[PoseD-Flow: Versatile and Guided Flow Matching Model of Human Pose](https://openaccess.thecvf.com/content/CVPR2026/html/Nadar_PoseD-Flow_Versatile_and_Guided_Flow_Matching_Model_of_Human_Pose_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Nadar_PoseD-Flow_Versatile_and_Guided_Flow_Matching_Model_of_Human_Pose_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Nadar_PoseD-Flow_Versatile_and_Guided_Flow_Matching_Model_of_Human_Pose_CVPR_2026_paper.pdf)) — 命中：`human pose`
-  - 作者：Jebastin Nadar, Simone Foti, Tolga Birdal
 - **[PoseGAM: Robust Unseen Object Pose Estimation via Geometry-Aware Multi-View Reasoning](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_PoseGAM_Robust_Unseen_Object_Pose_Estimation_via_Geometry-Aware_Multi-View_Reasoning_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_PoseGAM_Robust_Unseen_Object_Pose_Estimation_via_Geometry-Aware_Multi-View_Reasoning_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_PoseGAM_Robust_Unseen_Object_Pose_Estimation_via_Geometry-Aware_Multi-View_Reasoning_CVPR_2026_paper.pdf)) — 命中：`pose estimation`
   - 作者：Jianqi Chen, Biao Zhang, Xiangjun Tang, Peter Wonka
 - **[PoseGaussian: 6D Pose Estimation for Unseen Objects via Sparse-View Object-Level 3D Gaussian Splatting](https://openaccess.thecvf.com/content/CVPR2026/html/Shi_PoseGaussian_6D_Pose_Estimation_for_Unseen_Objects_via_Sparse-View_Object-Level_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Shi_PoseGaussian_6D_Pose_Estimation_for_Unseen_Objects_via_Sparse-View_Object-Level_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Shi_PoseGaussian_6D_Pose_Estimation_for_Unseen_Objects_via_Sparse-View_Object-Level_CVPR_2026_paper.pdf)) — 命中：`pose estimation`

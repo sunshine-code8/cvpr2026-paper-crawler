@@ -1,17 +1,11 @@
 # 生成模型与内容生成
 
-- 本页范围：901–1196
-- 分类总数：1196
+- 本页范围：901–1193
+- 分类总数：1193
 - 返回：[分类索引](../README.md)
 
 扩散模型、流匹配，以及图像、视频和 3D 内容生成。
 
-- **[SD-FSMIS: Adapting Stable Diffusion for Few-Shot Medical Image Segmentation](https://openaccess.thecvf.com/content/CVPR2026/html/Li_SD-FSMIS_Adapting_Stable_Diffusion_for_Few-Shot_Medical_Image_Segmentation_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Li_SD-FSMIS_Adapting_Stable_Diffusion_for_Few-Shot_Medical_Image_Segmentation_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Li_SD-FSMIS_Adapting_Stable_Diffusion_for_Few-Shot_Medical_Image_Segmentation_CVPR_2026_paper.pdf)) — 命中：`diffusion, generative model`
-  - 作者：Meihua Li, Yang Zhang, Weizhao He, Hu Qu, Yisong Li
-- **[SDUIE: Semi-Supervised Diffusion for Underwater Image Enhancement with Quant-Text Dual Control](https://openaccess.thecvf.com/content/CVPR2026/html/Cong_SDUIE_Semi-Supervised_Diffusion_for_Underwater_Image_Enhancement_with_Quant-Text_Dual_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Cong_SDUIE_Semi-Supervised_Diffusion_for_Underwater_Image_Enhancement_with_Quant-Text_Dual_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Cong_SDUIE_Semi-Supervised_Diffusion_for_Underwater_Image_Enhancement_with_Quant-Text_Dual_CVPR_2026_paper.pdf)) — 命中：`diffusion`
-  - 作者：Xiaofeng Cong, Yu-Xin Zhang, Hao Shen, Yeying Jin, Junming Hou, Jie Gui
-- **[SeaCache: Spectral-Evolution-Aware Cache for Accelerating Diffusion Models](https://openaccess.thecvf.com/content/CVPR2026/html/Chung_SeaCache_Spectral-Evolution-Aware_Cache_for_Accelerating_Diffusion_Models_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Chung_SeaCache_Spectral-Evolution-Aware_Cache_for_Accelerating_Diffusion_Models_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Chung_SeaCache_Spectral-Evolution-Aware_Cache_for_Accelerating_Diffusion_Models_CVPR_2026_paper.pdf)) — 命中：`diffusion, generative model, visual generation`
-  - 作者：Jiwoo Chung, Sangeek Hyun, MinKyu Lee, Byeongju Han, Geonho Cha, Dongyoon Wee, Youngjun Hong, Jae-Pil Heo
 - **[SearchAD: Large-Scale Rare Image Retrieval Dataset for Autonomous Driving](https://openaccess.thecvf.com/content/CVPR2026/html/Embacher_SearchAD_Large-Scale_Rare_Image_Retrieval_Dataset_for_Autonomous_Driving_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Embacher_SearchAD_Large-Scale_Rare_Image_Retrieval_Dataset_for_Autonomous_Driving_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Embacher_SearchAD_Large-Scale_Rare_Image_Retrieval_Dataset_for_Autonomous_Driving_CVPR_2026_paper.pdf)) — 命中：`text-to-image, image-to-image`
   - 作者：Felix Embacher, Jonas Uhrig, Marius Cordts, Markus Enzweiler
 - **[SEBA: Sample-Efficient Black-Box Attacks on Visual Reinforcement Learning](https://openaccess.thecvf.com/content/CVPR2026/html/Huang_SEBA_Sample-Efficient_Black-Box_Attacks_on_Visual_Reinforcement_Learning_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Huang_SEBA_Sample-Efficient_Black-Box_Attacks_on_Visual_Reinforcement_Learning_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_SEBA_Sample-Efficient_Black-Box_Attacks_on_Visual_Reinforcement_Learning_CVPR_2026_paper.pdf)) — 命中：`generative adversarial, world model`

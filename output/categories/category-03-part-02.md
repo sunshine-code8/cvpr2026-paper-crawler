@@ -1,7 +1,7 @@
 # 三维视觉与重建
 
 - 本页范围：301–600
-- 分类总数：1386
+- 分类总数：1382
 - 返回：[分类索引](../README.md)
 
 三维重建、点云、神经渲染、Gaussian Splatting、NeRF 与几何理解。
@@ -106,8 +106,6 @@
   - 作者：Jiahao Chen, Zihui Zhang, Yafei Yang, Jinxi Li, Shenxing Wei, Zhixuan Sun, Bo Yang
 - **[Exact-GS: Mathematically Rigorous and Accurate 3D Gaussian Splatting for 3D X-ray Reconstruction](https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Exact-GS_Mathematically_Rigorous_and_Accurate_3D_Gaussian_Splatting_for_3D_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Exact-GS_Mathematically_Rigorous_and_Accurate_3D_Gaussian_Splatting_for_3D_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_Exact-GS_Mathematically_Rigorous_and_Accurate_3D_Gaussian_Splatting_for_3D_CVPR_2026_paper.pdf)) — 命中：`3D, reconstruction, novel view synthesis, gaussian splatting, 3DGS`
   - 作者：Guangpu Yang, Steffen Kieß, Hanxiang Luo, Xingyu Liu, Sven Simon
-- **[ExMesh: EXplicit Mesh Reconstruction with Topology Adaptation](https://openaccess.thecvf.com/content/CVPR2026/html/Fan_ExMesh_EXplicit_Mesh_Reconstruction_with_Topology_Adaptation_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Fan_ExMesh_EXplicit_Mesh_Reconstruction_with_Topology_Adaptation_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Fan_ExMesh_EXplicit_Mesh_Reconstruction_with_Topology_Adaptation_CVPR_2026_paper.pdf)) — 命中：`reconstruction, mesh, multi-view`
-  - 作者：Chuanjin Fan, Lifan Wu, Wenjie Chang, Hanzhi Chang, Wenfei Yang, Tianzhu Zhang
 - **[EXOTIC: External Vision-driven Incomplete Multi-view Classification](https://openaccess.thecvf.com/content/CVPR2026/html/Xu_EXOTIC_External_Vision-driven_Incomplete_Multi-view_Classification_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Xu_EXOTIC_External_Vision-driven_Incomplete_Multi-view_Classification_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_EXOTIC_External_Vision-driven_Incomplete_Multi-view_Classification_CVPR_2026_paper.pdf)) — 命中：`multi-view`
   - 作者：Shilin Xu, Dezhong Peng, Zhenwen Ren, Yuan Sun
 - **[Expanding mmWave Datasets for Human Pose Estimation with Unlabeled Data and LiDAR Datasets](https://openaccess.thecvf.com/content/CVPR2026/html/Peng_Expanding_mmWave_Datasets_for_Human_Pose_Estimation_with_Unlabeled_Data_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Peng_Expanding_mmWave_Datasets_for_Human_Pose_Estimation_with_Unlabeled_Data_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Peng_Expanding_mmWave_Datasets_for_Human_Pose_Estimation_with_Unlabeled_Data_CVPR_2026_paper.pdf)) — 命中：`point cloud`
@@ -606,3 +604,5 @@
   - 作者：Zhengqing Wang, Saurabh Nair, Prajwal Chidananda, Pujith Kachana, Samuel Li, Matthew Brown, Yasutaka Furukawa
 - **[LacTokGen: Latent Consistency Tokenizer for 1024-pixel Image Generation by 256 Tokens](https://openaccess.thecvf.com/content/CVPR2026/html/Xie_LacTokGen_Latent_Consistency_Tokenizer_for_1024-pixel_Image_Generation_by_256_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Xie_LacTokGen_Latent_Consistency_Tokenizer_for_1024-pixel_Image_Generation_by_256_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Xie_LacTokGen_Latent_Consistency_Tokenizer_for_1024-pixel_Image_Generation_by_256_CVPR_2026_paper.pdf)) — 命中：`reconstruction`
   - 作者：Qingsong Xie, Luyuan Zhang, Zhao Zhang, Siyuan Li, Zhe Huang, Zhenyu Yang, Haonan Lu
+- **[Lafite: A Generative Latent Field for 3D Native Texturing](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Lafite_A_Generative_Latent_Field_for_3D_Native_Texturing_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Lafite_A_Generative_Latent_Field_for_3D_Native_Texturing_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_Lafite_A_Generative_Latent_Field_for_3D_Native_Texturing_CVPR_2026_paper.pdf)) — 命中：`3D, reconstruction, mesh, multi-view`
+  - 作者：Chia-Hao Chen, Yuan-Chen Guo, Zi-Xin Zou, Ze Yuan, Guan Luo, Xiaojuan Qi, Ding Liang, Yan-Pei Cao, Song-Hai Zhang

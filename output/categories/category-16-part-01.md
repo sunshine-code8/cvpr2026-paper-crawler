@@ -1,7 +1,7 @@
 # 可信、安全与可解释视觉
 
 - 本页范围：1–300
-- 分类总数：1378
+- 分类总数：1371
 - 返回：[分类索引](../README.md)
 
 对抗鲁棒性、隐私、公平性、可解释性、伪造检测和 AI 安全。
@@ -190,8 +190,6 @@
   - 作者：Yukai Ma, Honglin He, Selina Song, Wayne Wu, Bolei Zhou
 - **[Authorize-on-Demand: Dynamic Authorization with Legality-Aware Intellectual Property Protection for VLMs](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Authorize-on-Demand_Dynamic_Authorization_with_Legality-Aware_Intellectual_Property_Protection_for_VLMs_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Authorize-on-Demand_Dynamic_Authorization_with_Legality-Aware_Intellectual_Property_Protection_for_VLMs_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Authorize-on-Demand_Dynamic_Authorization_with_Legality-Aware_Intellectual_Property_Protection_for_VLMs_CVPR_2026_paper.pdf)) — 命中：`robust`
   - 作者：Lianyu Wang, Meng Wang, Huazhu Fu, Daoqiang Zhang
-- **[AutoDebias: An Automated Framework for Detecting and Mitigating Backdoor Biases in Text-to-Image Models](https://openaccess.thecvf.com/content/CVPR2026/html/Cai_AutoDebias_An_Automated_Framework_for_Detecting_and_Mitigating_Backdoor_Biases_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Cai_AutoDebias_An_Automated_Framework_for_Detecting_and_Mitigating_Backdoor_Biases_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Cai_AutoDebias_An_Automated_Framework_for_Detecting_and_Mitigating_Backdoor_Biases_CVPR_2026_paper.pdf)) — 命中：`bias`
-  - 作者：Hongyi Cai, Mohammad Mahdinur Rahman, MingKang Dong, Muxin Pu, Moayad Aloqaily, Jie Li, Xinfeng Li, Jialie Shen, Meikang Qiu, Qingsong Wen
 - **[AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs](https://openaccess.thecvf.com/content/CVPR2026/html/Lu_AV-Reasoner_Improving_and_Benchmarking_Clue-Grounded_Audio-Visual_Counting_for_MLLMs_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Lu_AV-Reasoner_Improving_and_Benchmarking_Clue-Grounded_Audio-Visual_Counting_for_MLLMs_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Lu_AV-Reasoner_Improving_and_Benchmarking_Clue-Grounded_Audio-Visual_Counting_for_MLLMs_CVPR_2026_paper.pdf)) — 命中：`robust`
   - 作者：Lidong Lu, Guo Chen, Zhu Wei, Zhiqi Li, Yicheng Liu, Tong Lu
 - **[AVFakeBench: A Comprehensive Audio-Video Forgery Detection Benchmark for AV-LMMs](https://openaccess.thecvf.com/content/CVPR2026/html/Xia_AVFakeBench_A_Comprehensive_Audio-Video_Forgery_Detection_Benchmark_for_AV-LMMs_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Xia_AVFakeBench_A_Comprehensive_Audio-Video_Forgery_Detection_Benchmark_for_AV-LMMs_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Xia_AVFakeBench_A_Comprehensive_Audio-Video_Forgery_Detection_Benchmark_for_AV-LMMs_CVPR_2026_paper.pdf)) — 命中：`deepfake, forgery detection`
@@ -606,3 +604,5 @@
   - 作者：Kai Li, Wenqi Ren, Wei Wang, Xiaochun Cao
 - **[DFD-HR: Generalizable Deepfake Detection via Hierarchical Routing Learning](https://openaccess.thecvf.com/content/CVPR2026/html/Sun_DFD-HR_Generalizable_Deepfake_Detection_via_Hierarchical_Routing_Learning_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Sun_DFD-HR_Generalizable_Deepfake_Detection_via_Hierarchical_Routing_Learning_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Sun_DFD-HR_Generalizable_Deepfake_Detection_via_Hierarchical_Routing_Learning_CVPR_2026_paper.pdf)) — 命中：`deepfake`
   - 作者：Jiamu Sun, Zhiyuan Yan, Ke-Yue Zhang, Taiping Yao, Shouhong Ding
+- **[Diagnosing and Repairing Unsafe Channels in Vision-Language Models via Causal Discovery and Dual-Modal Safety Subspace Projection](https://openaccess.thecvf.com/content/CVPR2026/html/Fu_Diagnosing_and_Repairing_Unsafe_Channels_in_Vision-Language_Models_via_Causal_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Fu_Diagnosing_and_Repairing_Unsafe_Channels_in_Vision-Language_Models_via_Causal_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Fu_Diagnosing_and_Repairing_Unsafe_Channels_in_Vision-Language_Models_via_Causal_CVPR_2026_paper.pdf)) — 命中：`robustness, robust, safety`
+  - 作者：Jinhu Fu, Yihang Lou, Qingyi Si, Shudong Zhang, Sen Su

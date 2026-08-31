@@ -1,7 +1,7 @@
 # 生成模型与内容生成
 
 - 本页范围：1–300
-- 分类总数：1196
+- 分类总数：1193
 - 返回：[分类索引](../README.md)
 
 扩散模型、流匹配，以及图像、视频和 3D 内容生成。
@@ -140,8 +140,6 @@
   - 作者：Seungeun Lee, SeungJun Moon, Hah Min Lew, Ji-Su Kang, Gyeong-Moon Park
 - **[AutoCut: End-to-end advertisement video editing based on multimodal discretization and controllable generation](https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_AutoCut_End-to-end_advertisement_video_editing_based_on_multimodal_discretization_and_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_AutoCut_End-to-end_advertisement_video_editing_based_on_multimodal_discretization_and_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Zhou_AutoCut_End-to-end_advertisement_video_editing_based_on_multimodal_discretization_and_CVPR_2026_paper.pdf)) — 命中：`controllable generation`
   - 作者：Milton Zhou, Sizhong Qin, Yongzhi Li, Quan Chen, Peng Jiang
-- **[AutoDebias: An Automated Framework for Detecting and Mitigating Backdoor Biases in Text-to-Image Models](https://openaccess.thecvf.com/content/CVPR2026/html/Cai_AutoDebias_An_Automated_Framework_for_Detecting_and_Mitigating_Backdoor_Biases_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Cai_AutoDebias_An_Automated_Framework_for_Detecting_and_Mitigating_Backdoor_Biases_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Cai_AutoDebias_An_Automated_Framework_for_Detecting_and_Mitigating_Backdoor_Biases_CVPR_2026_paper.pdf)) — 命中：`text-to-image`
-  - 作者：Hongyi Cai, Mohammad Mahdinur Rahman, MingKang Dong, Muxin Pu, Moayad Aloqaily, Jie Li, Xinfeng Li, Jialie Shen, Meikang Qiu, Qingsong Wen
 - **[AutoRegressive Generation with B-rep Holistic Token Sequence Representation](https://openaccess.thecvf.com/content/CVPR2026/html/Li_AutoRegressive_Generation_with_B-rep_Holistic_Token_Sequence_Representation_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Li_AutoRegressive_Generation_with_B-rep_Holistic_Token_Sequence_Representation_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Li_AutoRegressive_Generation_with_B-rep_Holistic_Token_Sequence_Representation_CVPR_2026_paper.pdf)) — 命中：`autoregressive generation`
   - 作者：Jiahao Li, Yunpeng Bai, Yongkang Dai, Hao Guo, Hongping Gan, Yilei Shi
 - **[AutoTraces: Autoregressive Trajectory Forecasting via Multimodal Large Language Models](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_AutoTraces_Autoregressive_Trajectory_Forecasting_via_Multimodal_Large_Language_Models_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_AutoTraces_Autoregressive_Trajectory_Forecasting_via_Multimodal_Large_Language_Models_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_AutoTraces_Autoregressive_Trajectory_Forecasting_via_Multimodal_Large_Language_Models_CVPR_2026_paper.pdf)) — 命中：`autoregressive generation`
@@ -606,3 +604,5 @@
   - 作者：Enrico Pallotta, Sina Mokhtarzadeh Azar, Lars Doorenbos, Serdar Ozsoy, Umar Iqbal, Juergen Gall
 - **[EgoFlow: Gradient-Guided Flow Matching for Egocentric 6DoF Object Motion Generation](https://openaccess.thecvf.com/content/CVPR2026/html/Saroha_EgoFlow_Gradient-Guided_Flow_Matching_for_Egocentric_6DoF_Object_Motion_Generation_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Saroha_EgoFlow_Gradient-Guided_Flow_Matching_for_Egocentric_6DoF_Object_Motion_Generation_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Saroha_EgoFlow_Gradient-Guided_Flow_Matching_for_Egocentric_6DoF_Object_Motion_Generation_CVPR_2026_paper.pdf)) — 命中：`diffusion, flow matching, generative model`
   - 作者：Abhishek Saroha, Huajian Zeng, Xingxing Zuo, Daniel Cremers, Xi Wang
+- **[EgoRoC: Towards Egocentric Robotic Control via Task-Agnostic Visual Alignment](https://openaccess.thecvf.com/content/CVPR2026/html/Feng_EgoRoC_Towards_Egocentric_Robotic_Control_via_Task-Agnostic_Visual_Alignment_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Feng_EgoRoC_Towards_Egocentric_Robotic_Control_via_Task-Agnostic_Visual_Alignment_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Feng_EgoRoC_Towards_Egocentric_Robotic_Control_via_Task-Agnostic_Visual_Alignment_CVPR_2026_paper.pdf)) — 命中：`diffusion`
+  - 作者：Wei Feng, Chi Zhang, Nan Li, Qian Zhang, Qi Zhang, Mingyan Li

@@ -1,7 +1,7 @@
 # 自动驾驶与智能交通
 
-- 本页范围：1–219
-- 分类总数：219
+- 本页范围：1–218
+- 分类总数：218
 - 返回：[分类索引](../README.md)
 
 自动驾驶感知、占据预测、轨迹预测、规划和交通场景理解。
@@ -366,8 +366,6 @@
   - 作者：Mohammad Mahdi Kazemi Esfeh, Qi Yan, Yongxing Zhang, Zahra Gholami, Renjie Liao, Purang Abolmaesumi
 - **[Stabilizing Streaming Video Geometry via Dynamic Feature Normalization](https://openaccess.thecvf.com/content/CVPR2026/html/Lyu_Stabilizing_Streaming_Video_Geometry_via_Dynamic_Feature_Normalization_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Lyu_Stabilizing_Streaming_Video_Geometry_via_Dynamic_Feature_Normalization_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Lyu_Stabilizing_Streaming_Video_Geometry_via_Dynamic_Feature_Normalization_CVPR_2026_paper.pdf)) — 命中：`autonomous driving, driving`
   - 作者：Xiaoyang Lyu, Muxin Liu, Xiaoshan Wu, Ruicheng Wang, Yi-Hua Huang, Yang-Tian Sun, Shaoshuai Shi, Xiaojuan Qi
-- **[SToRe3D: Sparse Token Relevance in ViTs for Efficient Multi-View 3D Object Detection](https://openaccess.thecvf.com/content/CVPR2026/html/Papais_SToRe3D_Sparse_Token_Relevance_in_ViTs_for_Efficient_Multi-View_3D_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Papais_SToRe3D_Sparse_Token_Relevance_in_ViTs_for_Efficient_Multi-View_3D_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Papais_SToRe3D_Sparse_Token_Relevance_in_ViTs_for_Efficient_Multi-View_3D_CVPR_2026_paper.pdf)) — 命中：`driving`
-  - 作者：Sandro Papais, Lezhou Feng, Charles Cossette, Lingting Ge
 - **[StreamVLO: Streaming Visual-LiDAR Odometry with Cumulative Drift Compensation](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_StreamVLO_Streaming_Visual-LiDAR_Odometry_with_Cumulative_Drift_Compensation_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_StreamVLO_Streaming_Visual-LiDAR_Odometry_with_Cumulative_Drift_Compensation_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_StreamVLO_Streaming_Visual-LiDAR_Odometry_with_Cumulative_Drift_Compensation_CVPR_2026_paper.pdf)) — 命中：`autonomous driving, driving`
   - 作者：Mengmeng Liu, Jiuming Liu, Michael Ying Yang, Chaokang Jiang, Jiangtao Li, Yunpeng Zhang, Hesheng Wang, Francesco Nex, Hao Cheng
 - **[TACO: Task-Aware Contrastive Learning for Joint LiDAR Localization and 3D Object Detection](https://openaccess.thecvf.com/content/CVPR2026/html/Xing_TACO_Task-Aware_Contrastive_Learning_for_Joint_LiDAR_Localization_and_3D_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Xing_TACO_Task-Aware_Contrastive_Learning_for_Joint_LiDAR_Localization_and_3D_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Xing_TACO_Task-Aware_Contrastive_Learning_for_Joint_LiDAR_Localization_and_3D_CVPR_2026_paper.pdf)) — 命中：`autonomous vehicle`

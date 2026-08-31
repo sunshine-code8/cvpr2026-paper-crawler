@@ -1599,37 +1599,6 @@
     }
   },
   {
-    "title": "Boundary-Responsive Differentiable Gating for Superpixel-Based Segmentation",
-    "authors": [
-      "Fatmaelzahraa Ahmed",
-      "Zhihe Lu",
-      "Gianni Caro",
-      "Diram Tabaa",
-      "Mohamed Hamdy",
-      "Muraam Abdel-Ghani",
-      "Abdulaziz Al-Ali",
-      "Muhammad Arsalan",
-      "Shidin Balakrishnan"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ahmed_Boundary-Responsive_Differentiable_Gating_for_Superpixel-Based_Segmentation_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Ahmed_Boundary-Responsive_Differentiable_Gating_for_Superpixel-Based_Segmentation_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Ahmed_Boundary-Responsive_Differentiable_Gating_CVPR_2026_supplemental.pdf",
-    "abstract": "We present BRDG, a boundary-responsive differentiable gating superpixel framework designed to resolve the trade-off between computational efficiency and segmentation precision in surgical scenes. At its core, the architecture is organized into three cooperative agents within a fully differentiable backbone. The Region Creator agent converts dense features into learnable superpixel tokens, jointly learning region descriptors and dense context. The Boundary Detector agent acts as a gating mechanism, estimating boundary confidence from region features to predict where refinement is needed. The refinement agent uses this gate to selectively fuse efficient coarse predictions with a high-fidelity refinement path that restores pixel-level details. To further enhance distinctiveness, an adjacency-boosted contrastive loss mines hard negatives across neighboring regions to improve boundary separation. We evaluate BRDG on three surgical tasks requiring high-precision EndoVis18-parts, EndoVis18-tools, EndoVis17-tools, as well as general domain benchmarks. Our model improves mIoU by substantial margins 4.5-7.0 over strong pixel-wise baselines while raising Boundary-F1 scores by over 10 points. Under the same hardware (RTX-A6000 Pro), it reaches 150.25 FPS with only 24M parameters. This makes it 10 times faster and 3.5 smaller than current state-of-the-art models, effectively resolving the critical accuracy-efficiency trade-off in real-time segmentation.",
-    "categories": [
-      "机器人与具身智能",
-      "高效模型与压缩"
-    ],
-    "matched_keywords": {
-      "机器人与具身智能": [
-        "agent"
-      ],
-      "高效模型与压缩": [
-        "efficient",
-        "efficiency"
-      ]
-    }
-  },
-  {
     "title": "Rethinking Asymmetric Quantization: Hidden Symmetry in Vision Model Weights",
     "authors": [
       "Masafumi Mori",
@@ -9066,57 +9035,6 @@
     }
   },
   {
-    "title": "WRIVINDER: Towards Spatial Intelligence for Geo-locating Ground Images onto Satellite Imagery",
-    "authors": [
-      "Chandrakanth Gudavalli",
-      "Tajuddin Manhar Mohammed",
-      "Abhay Yadav",
-      "Ananth Vishnu Bhaskar",
-      "Hardik Prajapati",
-      "Cheng Peng",
-      "Rama Chellappa",
-      "Shivkumar Chandrasekaran",
-      "B.S. Manjunath"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gudavalli_WRIVINDER_Towards_Spatial_Intelligence_for_Geo-locating_Ground_Images_onto_Satellite_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Gudavalli_WRIVINDER_Towards_Spatial_Intelligence_for_Geo-locating_Ground_Images_onto_Satellite_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Gudavalli_WRIVINDER_Towards_Spatial_CVPR_2026_supplemental.pdf",
-    "abstract": "Aligning ground-level imagery with geo-registered satellite maps is crucial for mapping, navigation, and situational awareness, yet remains challenging under large viewpoint gaps or when GPS is unreliable. We introduce Wrivinder, a zero-shot, geometry-driven framework that aggregates multiple ground photographs to reconstruct a consistent 3D scene and align it with overhead satellite imagery. Wrivinder combines SfM reconstruction, 3D Gaussian Splatting, semantic grounding, and monocular depth-based metric cues to produce a stable zenith-view rendering that can be directly matched to satellite context for metrically accurate camera geo-localization. To support systematic evaluation of this task--which lacks suitable benchmarks--we also release MC-Sat, a curated dataset linking multi-view ground imagery with geo-registered satellite tiles across diverse outdoor environments. Together, Wrivinder and MC-Sat provide a first comprehensive baseline and testbed for studying geometry-centered cross-view alignment without paired supervision. In zero-shot experiments, Wrivinder achieves sub-30m geolocation accuracy across both dense and large-area scenes, highlighting the promise of geometry-based aggregation for robust ground-to-satellite localization. The MC-Sat dataset and Wrivinder codebase will be publicly released.",
-    "categories": [
-      "三维视觉与重建",
-      "机器人与具身智能",
-      "自监督、表示与迁移学习",
-      "遥感与地球观测",
-      "数据集、评测与合成数据",
-      "可信、安全与可解释视觉"
-    ],
-    "matched_keywords": {
-      "三维视觉与重建": [
-        "3D",
-        "reconstruction",
-        "gaussian splatting",
-        "monocular depth",
-        "multi-view"
-      ],
-      "机器人与具身智能": [
-        "navigation"
-      ],
-      "自监督、表示与迁移学习": [
-        "zero-shot"
-      ],
-      "遥感与地球观测": [
-        "satellite"
-      ],
-      "数据集、评测与合成数据": [
-        "dataset",
-        "evaluation"
-      ],
-      "可信、安全与可解释视觉": [
-        "robust"
-      ]
-    }
-  },
-  {
     "title": "WaDi: Weight Direction-aware Distillation for One-step Image Synthesis",
     "authors": [
       "Lei Wang",
@@ -10728,37 +10646,6 @@
       "可信、安全与可解释视觉": [
         "robustness",
         "bias"
-      ]
-    }
-  },
-  {
-    "title": "Scene-VLM: Multimodal Video Scene Segmentation via Vision-Language Models",
-    "authors": [
-      "Nimrod Berman",
-      "Adam Botach",
-      "Emanuel Ben-Baruch",
-      "Shunit Haviv Hakimi",
-      "Asaf Gendler",
-      "Ilan Naiman",
-      "Erez Yosef",
-      "Igor Kviatkovsky"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Berman_Scene-VLM_Multimodal_Video_Scene_Segmentation_via_Vision-Language_Models_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Berman_Scene-VLM_Multimodal_Video_Scene_Segmentation_via_Vision-Language_Models_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Berman_Scene-VLM_Multimodal_Video_CVPR_2026_supplemental.pdf",
-    "abstract": "Segmenting long-form videos into semantically coherent scenes is a fundamental task in large-scale video understanding. Existing encoder-based methods are limited by visual-centric biases, classify each shot in isolation without leveraging sequential dependencies, and lack both narrative understanding and explainability. In this paper, we present Scene-VLM, the first fine-tuned vision-language model (VLM) framework for video scene segmentation. Scene-VLM jointly processes visual and textual cues including frames, transcriptions, and optional metadata to enable multimodal reasoning across consecutive shots. The model generates predictions sequentially with causal dependencies among shots and introduces a context-focus window mechanism to ensure sufficient temporal context for each shot-level decision. In addition, we propose a scheme to extract confidence scores from the token-level logits of the VLM, enabling controllable precision-recall trade-offs that were previously limited to encoder-based methods. Furthermore, we demonstrate that our model can be aligned to generate coherent natural-language rationales for its boundary decisions through minimal targeted supervision. Our approach achieves state-of-the-art performance on standard scene segmentation benchmarks. On MovieNet, for example, Scene-VLM yields significant improvements of +6 AP and +13.7 F1 over the previous leading method.",
-    "categories": [
-      "视觉语言与多模态",
-      "视频理解与时序建模"
-    ],
-    "matched_keywords": {
-      "视觉语言与多模态": [
-        "vision-language",
-        "multimodal",
-        "VLM"
-      ],
-      "视频理解与时序建模": [
-        "video understanding"
       ]
     }
   },
@@ -17612,46 +17499,6 @@
     }
   },
   {
-    "title": "UniT: Unified Multimodal Chain-of-Thought Test-time Scaling",
-    "authors": [
-      "Leon Liangyu Chen",
-      "Haoyu Ma",
-      "Zhipeng Fan",
-      "Ziqi Huang",
-      "Animesh Sinha",
-      "Xiaoliang Dai",
-      "Jialiang Wang",
-      "Zecheng He",
-      "Jianwei Yang",
-      "Chunyuan Li",
-      "Junzhe Sun",
-      "Chu Wang",
-      "Serena Yeung-Levy",
-      "Felix Juefei-Xu"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_UniT_Unified_Multimodal_Chain-of-Thought_Test-time_Scaling_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_UniT_Unified_Multimodal_Chain-of-Thought_Test-time_Scaling_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Chen_UniT_Unified_Multimodal_CVPR_2026_supplemental.pdf",
-    "abstract": "Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and making iterative corrections. While test-time scaling (TTS) has demonstrated that allocating additional inference compute for iterative reasoning substantially improves language model performance, extending this paradigm to unified multimodal models remains an open challenge.We introduce UniT, a framework for multimodal chain-of-thought test-time scaling that enables a single unified model to reason, verify, and refine across multiple rounds. UniT combines agentic data synthesis, unified model training, and flexible test-time inference to elicit cognitive behaviors including verification, subgoal decomposition, and content memory. Our key findings are: (1) unified models trained on short reasoning trajectories generalize to longer inference chains at test time; (2) sequential chain-of-thought reasoning provides a more scalable and compute-efficient TTS strategy than parallel sampling; (3) training on generation and editing trajectories improves out-of-distribution visual reasoning. These results establish multimodal test-time scaling as an effective paradigm for advancing both generation and understanding in unified models.",
-    "categories": [
-      "视觉语言与多模态",
-      "高效模型与压缩",
-      "数据集、评测与合成数据"
-    ],
-    "matched_keywords": {
-      "视觉语言与多模态": [
-        "multimodal",
-        "visual reasoning"
-      ],
-      "高效模型与压缩": [
-        "efficient"
-      ],
-      "数据集、评测与合成数据": [
-        "challenge"
-      ]
-    }
-  },
-  {
     "title": "Verifying Neural Network Robustness with Dual Perturbations",
     "authors": [
       "Hai Duong",
@@ -18374,35 +18221,6 @@
       ],
       "高效模型与压缩": [
         "sparse"
-      ]
-    }
-  },
-  {
-    "title": "ORCA: Orchestrated Reasoning with Collaborative Agents for Document Visual Question Answering",
-    "authors": [
-      "Aymen Lassoued",
-      "Mohamed Ali Souibgui",
-      "Yousri Kessentini"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lassoued_ORCA_Orchestrated_Reasoning_with_Collaborative_Agents_for_Document_Visual_Question_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lassoued_ORCA_Orchestrated_Reasoning_with_Collaborative_Agents_for_Document_Visual_Question_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Lassoued_ORCA_Orchestrated_Reasoning_CVPR_2026_supplemental.pdf",
-    "abstract": "Document Visual Question Answering (DocVQA) remains challenging for existing Vision-Language Models (VLMs), especially under complex reasoning and multi-step workflows. Current approaches struggle to decompose intricate questions into manageable sub-tasks and often fail to leverage specialized processing paths for different document elements. We present ORCA: Orchestrated Reasoning with Collaborative Agents for Document Visual Question Answering, a novel multi-agent framework that addresses these limitations through strategic agent coordination and iterative refinement. ORCA begins with a reasoning agent that decomposes queries into logical steps, followed by a routing mechanism that activates task-specific agents from a specialized agent dock. Our framework leverages a set of specialized AI agents, each dedicated to a distinct modality, enabling fine-grained understanding and collaborative reasoning across diverse document components. To ensure answer reliability, ORCA employs a debate mechanism with stress-testing, and when necessary, a thesis-antithesis adjudication process. This is followed by a sanity checker to ensure format consistency. Extensive experiments on three benchmarks demonstrate that our approach achieves significant improvements over state-of-the-art methods, establishing a new paradigm for collaborative agent systems in vision-language reasoning.",
-    "categories": [
-      "视觉语言与多模态",
-      "检测、分割与识别",
-      "机器人与具身智能"
-    ],
-    "matched_keywords": {
-      "视觉语言与多模态": [
-        "vision-language",
-        "visual question answering"
-      ],
-      "检测、分割与识别": [
-        "fine-grained"
-      ],
-      "机器人与具身智能": [
-        "agent"
       ]
     }
   },
@@ -21319,46 +21137,6 @@
     }
   },
   {
-    "title": "Exploring the Underwater World Segmentation without Extra Training",
-    "authors": [
-      "Bingyu Li",
-      "Tao Huo",
-      "Da Zhang",
-      "Zhiyuan Zhao",
-      "Junyu Gao",
-      "Xuelong Li"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Exploring_the_Underwater_World_Segmentation_without_Extra_Training_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Exploring_the_Underwater_World_Segmentation_without_Extra_Training_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Li_Exploring_the_Underwater_CVPR_2026_supplemental.pdf",
-    "abstract": "Accurate segmentation of marine organisms is vital for biodiversity monitoring and ecological assessment, yet existing datasets and models remain largely limited to terrestrial scenes. To bridge this gap, we introduce **AquaOV255**, the first large-scale and fine-grained underwater segmentation dataset containing 255 categories and over 20K images, covering diverse marine organisms and man-made objects for open-vocabulary evaluation. Furthermore, we establish the first underwater open-vocabulary segmentation benchmark, **UOVSBench**, by integrating AquaOV255 with five additional underwater datasets to enable comprehensive cross-domain evaluation. Alongside, we present **Earth2Ocean**, a training-free open-vocabulary segmentation framework that transfers terrestrial vision-language models (VLMs) to underwater domains without any additional underwater training. Earth2Ocean consists of two core components: a Geometric-guided Visual Mask Generator (**GMG**) that refines visual features via self-similarity geometric priors for local structure perception, and a Category-visual Semantic Alignment(**CSA**) module that enhances text embeddings through multimodal large language model reasoning and scene-aware template construction. Extensive experiments on the UOVSBench benchmark demonstrate that Earth2Ocean achieves over 6+ mIoU improvement on average while maintaining efficient inference.",
-    "categories": [
-      "视觉语言与多模态",
-      "检测、分割与识别",
-      "高效模型与压缩",
-      "数据集、评测与合成数据"
-    ],
-    "matched_keywords": {
-      "视觉语言与多模态": [
-        "vision-language",
-        "multimodal",
-        "multimodal large language model"
-      ],
-      "检测、分割与识别": [
-        "open-vocabulary",
-        "fine-grained"
-      ],
-      "高效模型与压缩": [
-        "efficient"
-      ],
-      "数据集、评测与合成数据": [
-        "dataset",
-        "benchmark",
-        "evaluation"
-      ]
-    }
-  },
-  {
     "title": "Point4Cast: Streaming Dynamic Scene Reconstruction and Forecasting",
     "authors": [
       "Xinhang Liu",
@@ -22937,35 +22715,6 @@
     }
   },
   {
-    "title": "Beyond Endpoints: Path-Centric Reasoning for Vectorized Off-Road Network Extraction",
-    "authors": [
-      "Wenfei Guan",
-      "Jilin Mei",
-      "Tong Shen",
-      "Xumin Wu",
-      "Shuo Wang",
-      "Chen Min",
-      "Yu Hu"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Guan_Beyond_Endpoints_Path-Centric_Reasoning_for_Vectorized_Off-Road_Network_Extraction_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Guan_Beyond_Endpoints_Path-Centric_Reasoning_for_Vectorized_Off-Road_Network_Extraction_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Guan_Beyond_Endpoints_Path-Centric_CVPR_2026_supplemental.zip",
-    "abstract": "Deep learning has advanced vectorized road extraction in urban settings, yet off-road environments remain underexplored and challenging. A significant domain gap causes advanced models to fail in wild terrains due to two key issues: lack of large-scale vectorized datasets and structural weakness in prevailing methods. Models such as SAM-Road employ a node-centric paradigm that reasons at sparse endpoints, making them fragile to occlusions and ambiguous junctions in off-road scenes, leading to topological errors.This work addresses these limitations in two complementary ways. First, we release WildRoad, a gloabal off-road road network dataset constructed efficiently with a dedicated interactive annotation tool tailored for road-network labeling. Second, we introduce MaGRoad (Mask-aware Geodesic Road network extractor), a path-centric framework that aggregates multi-scale visual evidence along candidate paths to infer connectivity robustly.Extensive experiments show that MaGRoad achieves state-of-the-art performance on our challenging WildRoad benchmark while generalizing well to urban datasets. A streamlined pipeline also yields roughly 2.5x faster inference, improving practical applicability. Together, the dataset and path-centric paradigm provide a stronger foundation for mapping roads in the wild.",
-    "categories": [
-      "高效模型与压缩",
-      "数据集、评测与合成数据"
-    ],
-    "matched_keywords": {
-      "高效模型与压缩": [
-        "sparse"
-      ],
-      "数据集、评测与合成数据": [
-        "dataset",
-        "benchmark"
-      ]
-    }
-  },
-  {
     "title": "Resolving the Stability-Plasticity Dilemma in Reinforcement Learning via Complementary Continual Critics",
     "authors": [
       "Bo Sun",
@@ -23364,45 +23113,6 @@
     "matched_keywords": {
       "检测、分割与识别": [
         "fine-grained"
-      ],
-      "可信、安全与可解释视觉": [
-        "bias"
-      ]
-    }
-  },
-  {
-    "title": "AutoDebias: An Automated Framework for Detecting and Mitigating Backdoor Biases in Text-to-Image Models",
-    "authors": [
-      "Hongyi Cai",
-      "Mohammad Mahdinur Rahman",
-      "MingKang Dong",
-      "Muxin Pu",
-      "Moayad Aloqaily",
-      "Jie Li",
-      "Xinfeng Li",
-      "Jialie Shen",
-      "Meikang Qiu",
-      "Qingsong Wen"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cai_AutoDebias_An_Automated_Framework_for_Detecting_and_Mitigating_Backdoor_Biases_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Cai_AutoDebias_An_Automated_Framework_for_Detecting_and_Mitigating_Backdoor_Biases_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Cai_AutoDebias_An_Automated_CVPR_2026_supplemental.pdf",
-    "abstract": "Text-to-Image (T2I) models generate high-quality images but are vulnerable to malicious backdoor attacks that inject harmful biases (e.g., trigger-activated gender or racial stereotypes). Existing debiasing methods, often designed for natural statistical biases, struggle with these deliberate and subtle injected attacks. We propose AutoDebias, a framework that automatically identifies and mitigates these malicious biases in T2I models without prior knowledge of the specific attack vectors. Specifically, AutoDebias leverages vision-language models to detect trigger-activated visual patterns and constructs neutralization guides by generating counter-prompts. These guides drive a CLIP-guided training process that breaks the harmful associations while preserving the original model's image quality and diversity. Unlike methods designed for natural bias, AutoDebias effectively addresses subtle, injected stereotypes and multiple interacting attacks. We evaluate the framework on a new benchmark covering 17 distinct backdoor attack scenarios, including challenging cases where multiple backdoors co-exist. AutoDebias detects malicious patterns with 91.6% accuracy and reduces the backdoor success rate from 90% to negligible levels, while preserving the visual fidelity of the original model.",
-    "categories": [
-      "视觉语言与多模态",
-      "生成模型与内容生成",
-      "数据集、评测与合成数据",
-      "可信、安全与可解释视觉"
-    ],
-    "matched_keywords": {
-      "视觉语言与多模态": [
-        "vision-language"
-      ],
-      "生成模型与内容生成": [
-        "text-to-image"
-      ],
-      "数据集、评测与合成数据": [
-        "benchmark"
       ],
       "可信、安全与可解释视觉": [
         "bias"
@@ -32457,39 +32167,6 @@
     }
   },
   {
-    "title": "AsymLoc: Towards Asymmetric Feature Matching for Efficient Visual Localization",
-    "authors": [
-      "Mohammad Omama",
-      "Gabriele Berton",
-      "Eric Foxlin",
-      "Yelin Kim"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Omama_AsymLoc_Towards_Asymmetric_Feature_Matching_for_Efficient_Visual_Localization_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Omama_AsymLoc_Towards_Asymmetric_Feature_Matching_for_Efficient_Visual_Localization_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Omama_AsymLoc_Towards_Asymmetric_CVPR_2026_supplemental.pdf",
-    "abstract": "Precise and real-time visual localization is critical for applications like AR/VR and robotics, especially on resource-constrained edge devices such as smart glasses, where battery life and heat dissipation can be primary concerns. While many efficient models exist, further reducing compute without sacrificing accuracy is essential for practical deployment. To address this, we propose asymmetric visual localization: a large Teacher model processes pre-mapped database images offline, while a lightweight Student model processes the query image online. This creates a challenge in matching features from two different models without resorting to heavy, learned matchers.We introduce AsymLoc, a novel distillation framework that aligns a Student to its Teacher through a combination of a geometry-driven matching objective and a joint detector-descriptor distillation objective, enabling fast, parameter-less nearest-neighbor matching.Extensive experiments on HPatches, ScanNet, IMC2022, and Aachen show that AsymLoc achieves up to 95% of the teacher's localization accuracy using an order of magnitude smaller models, significantly outperforming existing baselines and establishing a new state-of-the-art efficiency-accuracy trade-off.",
-    "categories": [
-      "机器人与具身智能",
-      "高效模型与压缩",
-      "数据集、评测与合成数据"
-    ],
-    "matched_keywords": {
-      "机器人与具身智能": [
-        "robotics"
-      ],
-      "高效模型与压缩": [
-        "efficient",
-        "efficiency",
-        "distillation",
-        "lightweight",
-        "edge device"
-      ],
-      "数据集、评测与合成数据": [
-        "challenge"
-      ]
-    }
-  },
-  {
     "title": "Med-CMR: A Fine-Grained Benchmark Integrating Visual Evidence and Clinical Logic for Medical Complex Multimodal Reasoning",
     "authors": [
       "Haozhen Gong",
@@ -35090,46 +34767,6 @@
       ],
       "高效模型与压缩": [
         "efficiency"
-      ]
-    }
-  },
-  {
-    "title": "Similarity-as-Evidence: Calibrating Overconfident VLMs for Interpretable and Label-Efficient Medical Active Learning",
-    "authors": [
-      "Zhuofan Xie",
-      "Zishan Lin",
-      "Jinliang Lin",
-      "Jie Qi",
-      "Shaohua Hong",
-      "Shuo Li"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xie_Similarity-as-Evidence_Calibrating_Overconfident_VLMs_for_Interpretable_and_Label-Efficient_Medical_Active_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xie_Similarity-as-Evidence_Calibrating_Overconfident_VLMs_for_Interpretable_and_Label-Efficient_Medical_Active_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Xie_Similarity-as-Evidence_Calibrating_Overconfident_CVPR_2026_supplemental.pdf",
-    "abstract": "Active Learning (AL) reduces annotation costs in medical imaging by selecting only the most informative samples for labeling, but suffers from cold-start when labeled data are scarce. Vision-Language Models (VLMs) address the cold-start problem via zero-shot predictions, yet their temperature-scaled softmax outputs treat text-image similarities as deterministic scores while ignoring inherent uncertainty, leading to overconfidence. This overconfidence misleads sample selection, wasting annotation budgets on uninformative cases. To overcome these limitations, the Similarity-as-Evidence (SaE) framework calibrates text-image similarities by introducing a Similarity Evidence Head (SEH), which reinterprets the similarity vector as evidence and parameterizes a Dirichlet distribution over labels. In contrast to a standard softmax that enforces confident predictions even under weak signals, the Dirichlet formulation explicitly quantifies lack of evidence (vacuity) and conflicting evidence (dissonance), thereby mitigating overconfidence caused by rigid softmax normalization. Building on this, SaE employs a dual-factor acquisition strategy: high-vacuity samples (e.g., rare diseases) are prioritized in early rounds to ensure coverage, while high-dissonance samples (e.g., ambiguous diagnoses) are prioritized later to refine boundaries, providing clinically interpretable selection rationales. Experiments on ten public medical imaging datasets with a 20% label budget show that SaE attains state-of-the-art macro-averaged accuracy of 82.57%. On the representative BTMRI dataset, SaE also achieves superior calibration, with a negative log-likelihood (NLL) of 0.425.",
-    "categories": [
-      "视觉语言与多模态",
-      "自监督、表示与迁移学习",
-      "高效模型与压缩",
-      "医学与生物视觉",
-      "数据集、评测与合成数据"
-    ],
-    "matched_keywords": {
-      "视觉语言与多模态": [
-        "vision-language",
-        "text-image"
-      ],
-      "自监督、表示与迁移学习": [
-        "zero-shot"
-      ],
-      "高效模型与压缩": [
-        "efficient"
-      ],
-      "医学与生物视觉": [
-        "medical imaging"
-      ],
-      "数据集、评测与合成数据": [
-        "dataset"
       ]
     }
   },
@@ -46293,44 +45930,6 @@
     }
   },
   {
-    "title": "FVBench: Benchmarking Deepfake Video Detection Capability of Large Multimodal Models",
-    "authors": [
-      "Jiarui Wang",
-      "Huiyu Duan",
-      "Juntong Wang",
-      "Xiongkuo Min"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_FVBench_Benchmarking_Deepfake_Video_Detection_Capability_of_Large_Multimodal_Models_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_FVBench_Benchmarking_Deepfake_Video_Detection_Capability_of_Large_Multimodal_Models_CVPR_2026_paper.pdf",
-    "supplemental_url": "",
-    "abstract": "As generative models rapidly evolve, the realism of AI-generated videos has reached new levels, posing significant challenges for detecting the authenticity of videos. Existing deepfake detection techniques generally rely on training datasets with limited generation methods and content diversity, which limits their generalization ability on more realistic content, particularly that produced by the latest generative models. Recently, large multimodal models (LMMs) have demonstrated remarkable zero-shot performance across a variety of vision tasks. Yet, their ability to discern deepfake videos remains largely untested. To this end, we propose **FVBench**, a comprehensive deep\\underline f ake \\underline v ideo \\underline bench mark designed to advance video deepfake detection. It includes: (i) extensive content diversity, with over 120K videos covering real, AI-edited, and fully AI-generated categories, (ii) comprehensive model coverage, with fake videos generated and edited by 42 of the state-of-the-art video synthesis and editing models, and (iii) deepfake video detection benchmark for LMMs, which is a comprehensive benchmark for exploring the deepfake video detection capabilities of LMMs. The dataset and code are released at https://github.com/IntMeGroup/FVBench.",
-    "categories": [
-      "视觉语言与多模态",
-      "生成模型与内容生成",
-      "自监督、表示与迁移学习",
-      "数据集、评测与合成数据",
-      "可信、安全与可解释视觉"
-    ],
-    "matched_keywords": {
-      "视觉语言与多模态": [
-        "multimodal"
-      ],
-      "生成模型与内容生成": [
-        "generative model"
-      ],
-      "自监督、表示与迁移学习": [
-        "zero-shot"
-      ],
-      "数据集、评测与合成数据": [
-        "dataset",
-        "benchmark"
-      ],
-      "可信、安全与可解释视觉": [
-        "deepfake"
-      ]
-    }
-  },
-  {
     "title": "FFP-300K: Scaling First-Frame Propagation for Generalizable Video Editing",
     "authors": [
       "Xijie Huang",
@@ -56883,42 +56482,6 @@
     }
   },
   {
-    "title": "Draft and Refine with Visual Experts",
-    "authors": [
-      "Sungheon Jeong",
-      "Ryozo Masukawa",
-      "Jihong Park",
-      "Sanggeon Yun",
-      "Wenjun Huang",
-      "Hanning Chen",
-      "Mahdi Imani",
-      "Mohsen Imani"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jeong_Draft_and_Refine_with_Visual_Experts_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jeong_Draft_and_Refine_with_Visual_Experts_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Jeong_Draft_and_Refine_CVPR_2026_supplemental.pdf",
-    "abstract": "While recent Large Vision-Language Models (LVLMs) exhibit impressive multimodal reasoning abilities, they often produce ungrounded, hallucinated responses by over-relying on linguistic priors rather than visual evidence. This critical limitation arises from the lack of a quantitative measure of how much these models actually rely on visual inputs during reasoning. We propose Draft and Refine (DnR), an agent framework driven by a novel question-conditioned utilization metric. This metric quantifies the model's actual reliance on visual evidence by first constructing a query-conditioned relevance map to localize question-specific evidence, and then assessing dependence through relevance-based probabilistic masking. Guided by this metric, the DnR agent refines its initial \"draft\" through targeted feedback from external visual experts. Each expert's output (e.g., boxes, masks) is rendered as visual cues on the image, and the LVLM is re-queried to select the response that yields the greatest improvement in utilization. This process strengthens visual grounding of predictions without retraining or architectural changes. Experiments across a broad range of VQA and captioning benchmarks demonstrate consistent accuracy gains and reduced hallucination. These results show that quantifying visual utilization provides a principled path for designing more interpretable and evidence-driven multimodal agent systems that effectively leverage visual experts.",
-    "categories": [
-      "视觉语言与多模态",
-      "机器人与具身智能",
-      "可信、安全与可解释视觉"
-    ],
-    "matched_keywords": {
-      "视觉语言与多模态": [
-        "vision-language",
-        "multimodal",
-        "LVLM",
-        "VQA"
-      ],
-      "机器人与具身智能": [
-        "agent"
-      ],
-      "可信、安全与可解释视觉": [
-        "hallucination"
-      ]
-    }
-  },
-  {
     "title": "Seeing is Improving: Visual Feedback for Iterative Text Layout Refinement",
     "authors": [
       "Junrong Guo",
@@ -58779,32 +58342,6 @@
         "dataset",
         "benchmark",
         "challenge"
-      ]
-    }
-  },
-  {
-    "title": "Align While Search: Belief-Guided Exploratory Inference for World-Grounded Embodied Agents",
-    "authors": [
-      "Seohui Bae",
-      "Jeonghye Kim",
-      "Youngchul Sung",
-      "Woohyung Lim"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Bae_Align_While_Search_Belief-Guided_Exploratory_Inference_for_World-Grounded_Embodied_Agents_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Bae_Align_While_Search_Belief-Guided_Exploratory_Inference_for_World-Grounded_Embodied_Agents_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Bae_Align_While_Search_CVPR_2026_supplemental.pdf",
-    "abstract": "In this paper, we propose a test-time adaptive agent that performs exploratory inference through posterior-guided belief refinement without relying on gradient-based updates or additional training for LLM agent operating under partial observability. Our agent maintains an external structured belief over the environment state, iteratively updates it via action-conditioned observations, and selects actions by maximizing predicted information gain over the belief space. We estimate information gain using a lightweight LLM-based surrogate and assess world alignment through a novel reward that quantifies the consistency between posterior belief and ground-truth environment configuration. Experiments show that our method outperforms inference-time scaling baselines such as prompt-augmented or retrieval-enhanced LLMs, in aligning with latent world states with significantly lower integration overhead.",
-    "categories": [
-      "机器人与具身智能",
-      "高效模型与压缩"
-    ],
-    "matched_keywords": {
-      "机器人与具身智能": [
-        "embodied",
-        "agent"
-      ],
-      "高效模型与压缩": [
-        "lightweight"
       ]
     }
   },
@@ -61031,50 +60568,6 @@
       "数据集、评测与合成数据": [
         "benchmark",
         "evaluation"
-      ]
-    }
-  },
-  {
-    "title": "Composite-Attribute Person Re-Identification via Pose-Guided Disentanglement",
-    "authors": [
-      "Kartik Patwari",
-      "Noranart Vesdapunt",
-      "Chien-Yi Wang",
-      "Dawei Li",
-      "Cong Phuoc Huynh",
-      "Ning Zhou",
-      "Chen-Nee Chuah",
-      "Kah Kuen Fu"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Patwari_Composite-Attribute_Person_Re-Identification_via_Pose-Guided_Disentanglement_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Patwari_Composite-Attribute_Person_Re-Identification_via_Pose-Guided_Disentanglement_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Patwari_Composite-Attribute_Person_Re-Identification_CVPR_2026_supplemental.pdf",
-    "abstract": "Recent advancements in vision-language models have enabled multi-modal person re-identification (Re-ID), where the system takes both an image and a text query to identify matching individuals. While previous state-of-the-art methods perform well with detailed, sentence-level descriptions, we found that their Recall@1 drops by half when using short, keyword-based queries due to ambiguity, training biases, and under-represented attributes. Despite this challenge, short queries provide a more natural and efficient user experience, requiring less effort and allowing for iterative refinement. To address this limitation, we introduce a new problem setting, Composite-Attributes Person Re-ID (CA-ReID), along with a fine-grained composite attribute dataset with queries belonging to varying levels of ambiguity. We further propose two methods: Dense Disentangling Loss to promote attribute-specific embeddings, and Part-Aware Representations that use pose estimation to align textual attributes with relevant body regions. Our method sets a new state of the art on the new CA-ReID benchmark (up to +17% Recall@1) and performs on par with prior methods on existing CC-ReID benchmarks.",
-    "categories": [
-      "视觉语言与多模态",
-      "检测、分割与识别",
-      "人体、姿态与数字人",
-      "高效模型与压缩",
-      "数据集、评测与合成数据"
-    ],
-    "matched_keywords": {
-      "视觉语言与多模态": [
-        "vision-language",
-        "multi-modal"
-      ],
-      "检测、分割与识别": [
-        "fine-grained"
-      ],
-      "人体、姿态与数字人": [
-        "pose estimation"
-      ],
-      "高效模型与压缩": [
-        "efficient"
-      ],
-      "数据集、评测与合成数据": [
-        "dataset",
-        "benchmark",
-        "challenge"
       ]
     }
   },
@@ -70503,41 +69996,6 @@
     }
   },
   {
-    "title": "Point Cloud as a Foreign Language for Multi-modal Large Language Model",
-    "authors": [
-      "Sneha Paul",
-      "Zachary Patterson",
-      "Nizar Bouguila"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Paul_Point_Cloud_as_a_Foreign_Language_for_Multi-modal_Large_Language_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Paul_Point_Cloud_as_a_Foreign_Language_for_Multi-modal_Large_Language_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Paul_Point_Cloud_as_CVPR_2026_supplemental.pdf",
-    "abstract": "Multi-modal large language models (MLLMs) have shown remarkable progress in integrating visual and linguistic understanding. Recent efforts have extended these capabilities to 3D understanding through encoder-based architectures that rely on pre-trained 3D encoders to extract geometric features. However, such approaches suffer from semantic misalignment between geometric and linguistic spaces, resolution sensitivity, and substantial computational overhead. In this work, we present SAGE, the first end-to-end 3D MLLM that directly processes raw point clouds without relying on a pre-trained 3D encoder. Our approach introduces a lightweight 3D tokenizer that combines geometric sampling and neighbourhood aggregation with vector quantization to convert point clouds into discrete tokens--treating 3D data as a foreign language that naturally extends the LLM's vocabulary. Furthermore, to enhance the model's reasoning capability on complex 3D tasks, we propose a preference optimization training strategy with a semantic alignment-based reward, specifically designed for open-ended 3D question answering where responses are descriptive. Extensive experiments across diverse 3D understanding benchmarks demonstrate that our end-to-end approach outperforms existing encoder-based methods while offering significant advantages in computational efficiency, generalization across LLM backbones, and robustness to input resolution variations. Code is available at: https://github.com/snehaputul/SAGE3D.",
-    "categories": [
-      "视觉语言与多模态",
-      "三维视觉与重建",
-      "高效模型与压缩",
-      "可信、安全与可解释视觉"
-    ],
-    "matched_keywords": {
-      "视觉语言与多模态": [
-        "multi-modal"
-      ],
-      "三维视觉与重建": [
-        "3D",
-        "point cloud"
-      ],
-      "高效模型与压缩": [
-        "efficiency",
-        "quantization",
-        "lightweight"
-      ],
-      "可信、安全与可解释视觉": [
-        "robustness"
-      ]
-    }
-  },
-  {
     "title": "Proxy-GS: Unified Occlusion Priors for Training and Inference in Structured 3D Gaussian Splatting",
     "authors": [
       "Yuanyuan Gao",
@@ -70972,47 +70430,6 @@
       "事件相机与计算成像": [
         "event camera",
         "event-based"
-      ]
-    }
-  },
-  {
-    "title": "FLOW: Optimal Transport-Driven Feature Warping for Generalized Remote Physiological Measurement",
-    "authors": [
-      "Bo Zhao",
-      "Junzhe Cao",
-      "Dan Guo",
-      "Dongmin Huang",
-      "Wenjin Wang",
-      "Tao Tan",
-      "Yue Sun",
-      "Zitong Yu"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhao_FLOW_Optimal_Transport-Driven_Feature_Warping_for_Generalized_Remote_Physiological_Measurement_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhao_FLOW_Optimal_Transport-Driven_Feature_Warping_for_Generalized_Remote_Physiological_Measurement_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Zhao_FLOW_Optimal_Transport-Driven_CVPR_2026_supplemental.pdf",
-    "abstract": "Remote photoplethysmography (rPPG) enables non-contact physiological measurement from facial videos but often suffers from severe performance degradation under domain shifts. Traditional STMap-based methods [??] rely on predefined spatio-temporal representations that offer engineered robustness but discard fine-grained temporal cues. In contrast, end-to-end rPPG models directly learn hierarchical features from raw videos, capturing richer physiological patterns yet remaining highly sensitive to variations in illumination, motion, and camera sensors. To address these challenges, we propose FLOW (Feature-Level Optimal Warping), an Optimal Transport (OT)-driven and plug-and-play framework for multi-source domain generalization in rPPG measurement.FLOW formulates domain shifts as structured Optimal Transport problems and performs feature-level warping to align multiple source domains in a shared latent space. Specifically, a dual-consistency regularization is proposed to enforce both frequency fidelity and mapping invariance, while a shape-adaptive alignment module is designed to enable architecture-agnostic integration without re-training. We further derive a generalization bound based on conditional OT discrepancy, providing theoretical insight into FLOW's robustness under distributional shifts. Extensive experiments across diverse rPPG benchmarks demonstrate that FLOW consistently improves cross-domain generalization while maintaining lightweight and modular deployment.",
-    "categories": [
-      "检测、分割与识别",
-      "人体、姿态与数字人",
-      "自监督、表示与迁移学习",
-      "高效模型与压缩",
-      "可信、安全与可解释视觉"
-    ],
-    "matched_keywords": {
-      "检测、分割与识别": [
-        "fine-grained"
-      ],
-      "人体、姿态与数字人": [
-        "facial"
-      ],
-      "自监督、表示与迁移学习": [
-        "domain generalization"
-      ],
-      "高效模型与压缩": [
-        "lightweight"
-      ],
-      "可信、安全与可解释视觉": [
-        "robustness"
       ]
     }
   },
@@ -74499,37 +73916,6 @@
     }
   },
   {
-    "title": "RECS4R: Bridging Semantics and Geometry for Referring Remote Sensing Interpretation",
-    "authors": [
-      "Jinming Chai",
-      "Lingling Li",
-      "Licheng Jiao",
-      "Xiaoqiang Lu",
-      "Long Sun",
-      "Xu Liu",
-      "Wenping Ma",
-      "Weibin Li"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chai_RECS4R_Bridging_Semantics_and_Geometry_for_Referring_Remote_Sensing_Interpretation_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chai_RECS4R_Bridging_Semantics_and_Geometry_for_Referring_Remote_Sensing_Interpretation_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Chai_RECS4R_Bridging_Semantics_CVPR_2026_supplemental.pdf",
-    "abstract": "Referring expression comprehension and segmentation (RECS) task plays a vital role in remote sensing due to its high efficiency in multi-tasking. However, RECS has reached a performance bottleneck rooted in representational insufficiency, primarily due to cross-task representational fragmentation in multi-task interpretation. In this paper, we propose RECS4R, a unified multi-task framework to upgrade RECS performance. At the representation level, we introduce a language-guided unified contour decoding paradigm (LUCDP), using language-conditioned contours as intermediate carriers to synchronously decode VG and RIS, structurally preserving geometric and semantic consistency while enabling lightweight, efficient decoding. At refinement level, we introduce residual coarse-to-fine encoding (RCE), shifting fine stage from learning-from-scratch to error correction. At reaggregation level, we design channel isolated multi-scale fusion (CIMF) to achieve lossless feature fusion between channels. At regularization level, we employ gradient consistency loss (GCL) to enhance LUCDP and improve boundary adherence. Moreover, we validate RECS4R on remote-sensing and natural datasets, including RefDIOR, RRSIS-D, OPT-RSVG, RefCOCO, RefCOCO+, and RefCOCOg, and verify the image encoder under CNN, Transformer, and Mamba backbones, achieving advanced performance. The code will be publicly accessible at https://github.com/IPIU-XDU/RSFM.",
-    "categories": [
-      "高效模型与压缩",
-      "遥感与地球观测"
-    ],
-    "matched_keywords": {
-      "高效模型与压缩": [
-        "efficient",
-        "efficiency",
-        "lightweight"
-      ],
-      "遥感与地球观测": [
-        "remote sensing"
-      ]
-    }
-  },
-  {
     "title": "LogCD: Local-to-global Consistency Distillation for Few-step Image Generation",
     "authors": [
       "Qingsong Xie",
@@ -76766,28 +76152,6 @@
       ],
       "可信、安全与可解释视觉": [
         "robustness"
-      ]
-    }
-  },
-  {
-    "title": "SAM2Text: Towards Prompt-Free and Multi-Resolution Video Scene Text Segmentation",
-    "authors": [
-      "Jing-Yao Zhang",
-      "Heng Zhang",
-      "Mingsen Zhang",
-      "Binbin Yang",
-      "Fei Yin"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_SAM2Text_Towards_Prompt-Free_and_Multi-Resolution_Video_Scene_Text_Segmentation_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_SAM2Text_Towards_Prompt-Free_and_Multi-Resolution_Video_Scene_Text_Segmentation_CVPR_2026_paper.pdf",
-    "supplemental_url": "",
-    "abstract": "We introduce a novel method for video Scene Text Segmentation (STS), a task critical for understanding dynamic visual content. Despite the success of foundation models like Segment Anything Model 2 (SAM2) in generic segmentation, their application to video STS is hindered by the reliance on external prompts, limited output resolution, and instability in video sequences. To address these, we present a comprehensive framework based on SAM2. First, we fine-tune the image encoder using LoRA and integrate a self-prompting module, enabling the model to autonomously generate text-specific prompts. Second, we augment the decoder with additional upsampling branches at 512x512 and 1024x1024 resolutions, complementing the original 256x256 output to produce high-fidelity, multi-resolution masks. Third, we enhance the memory mechanism by combining short-term memory with a top-k selection strategy, ensuring temporally consistent and stable segmentation across video frames. A significant obstacle in video STS is data scarcity. To this end, we contribute two datasets: STS-SynthV, containing 1,410 synthetic video clips generated via FlowText, and STS-RealV, comprising 660 meticulously annotated real-world video sequences. Extensive experiments demonstrate that our method achieves state-of-the-art performance on multiple video and image scene text benchmarks. The data and code:https://github.com/insuper-zhang/SAM2Text/.",
-    "categories": [
-      "文档、文字与OCR"
-    ],
-    "matched_keywords": {
-      "文档、文字与OCR": [
-        "scene text"
       ]
     }
   },
@@ -79978,39 +79342,6 @@
       ],
       "检测、分割与识别": [
         "fine-grained"
-      ]
-    }
-  },
-  {
-    "title": "ExMesh: EXplicit Mesh Reconstruction with Topology Adaptation",
-    "authors": [
-      "Chuanjin Fan",
-      "Lifan Wu",
-      "Wenjie Chang",
-      "Hanzhi Chang",
-      "Wenfei Yang",
-      "Tianzhu Zhang"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Fan_ExMesh_EXplicit_Mesh_Reconstruction_with_Topology_Adaptation_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Fan_ExMesh_EXplicit_Mesh_Reconstruction_with_Topology_Adaptation_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Fan_ExMesh_EXplicit_Mesh_CVPR_2026_supplemental.pdf",
-    "abstract": "Reconstructing surface meshes from multi-view images has remained a core challenge in recent years. Most existing methods, whether implicit or explicit, depend on intermediate representations and post-processing steps like Marching Cubes or TSDF fusion, often resulting in artifacts and fragmented geometry. Directly optimizing explicit meshes is a promising approach. However, it presents two critical challenges. The first is how to adaptively refine mesh topology to capture detail without introducing degenerate faces. The second is how to maintain consistent UV coordinates for high-fidelity texturing as the mesh structure evolves. To overcome these, we propose ExMesh, a novel framework that directly optimizes explicit meshes by integrating differentiable optimization with discrete topology updates. Specifically, we introduce an adaptive vertex splitting and merging strategy, along with real-time UV maintenance, to enable coarse-to-fine optimization while preserving geometric integrity. To our knowledge, ExMesh is the first framework to seamlessly integrate discrete topology operations into a continuous differentiable optimization pipeline. Extensive experiments demonstrate that ExMesh achieves a balance among accuracy, computational efficiency, and mesh conciseness.",
-    "categories": [
-      "三维视觉与重建",
-      "高效模型与压缩",
-      "数据集、评测与合成数据"
-    ],
-    "matched_keywords": {
-      "三维视觉与重建": [
-        "reconstruction",
-        "mesh",
-        "multi-view"
-      ],
-      "高效模型与压缩": [
-        "efficiency"
-      ],
-      "数据集、评测与合成数据": [
-        "challenge"
       ]
     }
   },
@@ -86798,54 +86129,6 @@
       "数据集、评测与合成数据": [
         "dataset",
         "synthetic data"
-      ]
-    }
-  },
-  {
-    "title": "AMusE: Audio-Visual Benchmark and Alignment Framework for Agentic Multi-Speaker Understanding",
-    "authors": [
-      "Sanjoy Chowdhury",
-      "Karren D Yang",
-      "Xudong Liu",
-      "Fartash Faghri",
-      "Pavan Kumar Anasosalu Vasu",
-      "Oncel Tuzel",
-      "Dinesh Manocha",
-      "Chun-Liang Li",
-      "Raviteja Vemulapalli"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chowdhury_AMusE_Audio-Visual_Benchmark_and_Alignment_Framework_for_Agentic_Multi-Speaker_Understanding_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chowdhury_AMusE_Audio-Visual_Benchmark_and_Alignment_Framework_for_Agentic_Multi-Speaker_Understanding_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Chowdhury_AMusE_Audio-Visual_Benchmark_CVPR_2026_supplemental.zip",
-    "abstract": "Recent multimodal large language models (MLLMs) such as GPT-4o and Qwen3-Omni show strong perception but struggle in multi-speaker, dialogue-centric settings that demand agentic reasoning, tracking who speaks, maintaining roles, and grounding events across time. These scenarios are central to multimodal audio-video understanding, where models must jointly reason over audio and visual streams in applications such as conversational video assistants and meeting analytics. We introduce AMusE, a benchmark designed around tasks that are inherently agentic, requiring models to decompose complex audio-visual interactions into planning, grounding, and reflection steps. It evaluates MLLMs across three modes: zero-shot, guided, and agentic, and six task families, including spatio-temporal speaker grounding and multimodal dialogue summarization. Across all modes, current models exhibit weak multi-speaker reasoning and inconsistent behavior under both non-agentic and agentic evaluation. Motivated by the inherently agentic nature of these tasks and recent advances in LLM agents, we propose RAFT, a data-efficient agentic alignment framework that integrates reward optimization with intrinsic multimodal self-evaluation as reward and selective parameter adaptation for data and parameter-efficient updates. Using RAFT, we achieve up to 39.52% relative improvement in accuracy on our benchmark. Together, AMusE and RAFT provide a practical platform for examining agentic reasoning in multimodal models and improving their capabilities.",
-    "categories": [
-      "视觉语言与多模态",
-      "视频理解与时序建模",
-      "跟踪与运动估计",
-      "自监督、表示与迁移学习",
-      "高效模型与压缩",
-      "数据集、评测与合成数据"
-    ],
-    "matched_keywords": {
-      "视觉语言与多模态": [
-        "multimodal",
-        "multimodal large language model"
-      ],
-      "视频理解与时序建模": [
-        "video understanding"
-      ],
-      "跟踪与运动估计": [
-        "tracking"
-      ],
-      "自监督、表示与迁移学习": [
-        "zero-shot"
-      ],
-      "高效模型与压缩": [
-        "efficient"
-      ],
-      "数据集、评测与合成数据": [
-        "benchmark",
-        "evaluation"
       ]
     }
   },
@@ -98725,45 +98008,6 @@
       ],
       "高效模型与压缩": [
         "sparse"
-      ]
-    }
-  },
-  {
-    "title": "SToRe3D: Sparse Token Relevance in ViTs for Efficient Multi-View 3D Object Detection",
-    "authors": [
-      "Sandro Papais",
-      "Lezhou Feng",
-      "Charles Cossette",
-      "Lingting Ge"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Papais_SToRe3D_Sparse_Token_Relevance_in_ViTs_for_Efficient_Multi-View_3D_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Papais_SToRe3D_Sparse_Token_Relevance_in_ViTs_for_Efficient_Multi-View_3D_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Papais_SToRe3D_Sparse_Token_CVPR_2026_supplemental.pdf",
-    "abstract": "Vision Transformers (ViTs) enable strong multi-view 3D detection but are limited by high inference latency from dense token and query processing across multiple views and large 3D regions. Existing sparsity methods, designed mainly for 2D vision, prune or merge image tokens but do not extend to full-model sparsity or address 3D object queries. We introduce SToRe3D, a relevance-aligned sparsity framework that jointly selects 2D image tokens and 3D object queries while storing filtered features for reactivation. Mutual 2D-3D relevance heads allocate compute to driving-critical content and preserve other embeddings. Evaluated on nuScenes and our new nuScenes-Relevance benchmark, SToRe3D achieves up to 3x faster inference with marginal accuracy loss, establishing real-time large-scale ViT-based 3D detection while maintaining accuracy on planning-critical agents.",
-    "categories": [
-      "三维视觉与重建",
-      "检测、分割与识别",
-      "自动驾驶与智能交通",
-      "高效模型与压缩",
-      "数据集、评测与合成数据"
-    ],
-    "matched_keywords": {
-      "三维视觉与重建": [
-        "3D",
-        "multi-view"
-      ],
-      "检测、分割与识别": [
-        "object detection"
-      ],
-      "自动驾驶与智能交通": [
-        "driving"
-      ],
-      "高效模型与压缩": [
-        "efficient",
-        "sparse"
-      ],
-      "数据集、评测与合成数据": [
-        "benchmark"
       ]
     }
   },
@@ -112650,47 +111894,6 @@
     }
   },
   {
-    "title": "Personalized Longitudinal Medical Report Generation via Temporally-Aware Federated Adaptation",
-    "authors": [
-      "He Zhu",
-      "Ren Togo",
-      "Takahiro Ogawa",
-      "Kenji Hirata",
-      "Minghui Tang",
-      "Takaaki Yoshimura",
-      "Hiroyuki Sugimori",
-      "Noriko Nishioka",
-      "Yukie Shimizu",
-      "Kohsuke Kudo",
-      "Miki Haseyama"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Personalized_Longitudinal_Medical_Report_Generation_via_Temporally-Aware_Federated_Adaptation_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhu_Personalized_Longitudinal_Medical_Report_Generation_via_Temporally-Aware_Federated_Adaptation_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Zhu_Personalized_Longitudinal_Medical_CVPR_2026_supplemental.pdf",
-    "abstract": "Automatic medical report generation from multimodal longitudinal imaging is crucial for clinical diagnosis but remains challenging due to privacy constraints and evolving disease dynamics. While federated learning (FL) enables decentralized model training without data sharing, its extension to longitudinal medical modeling remains underexplored. Existing FL approaches overlook temporal non-stationarity across visits and patient-specific heterogeneity, causing unstable optimization and degraded report quality.We introduce Federated Temporal Adaptation (FTA), a new FL setting for longitudinal medical report generation, and propose FedTAR, a framework combining parameter-efficient personalization and meta-learned temporal aggregation. FedTAR employs a metadata-conditioned LoRA module that generates patient-specific adapters from Gaussian-mixture embeddings and a residual temporal aggregation scheme that adaptively weights client updates via first-order MAML, ensuring stable and efficient optimization under temporal heterogeneity.Experiments on J-MID (1M exams) and MIMIC-CXR demonstrate consistent improvements in linguistic accuracy, temporal coherence, and cross-site generalization, establishing FedTAR as a robust, privacy-preserving paradigm for federated multimodal longitudinal modeling.",
-    "categories": [
-      "视觉语言与多模态",
-      "高效模型与压缩",
-      "医学与生物视觉",
-      "可信、安全与可解释视觉"
-    ],
-    "matched_keywords": {
-      "视觉语言与多模态": [
-        "multimodal"
-      ],
-      "高效模型与压缩": [
-        "efficient"
-      ],
-      "医学与生物视觉": [
-        "clinical"
-      ],
-      "可信、安全与可解释视觉": [
-        "robust",
-        "privacy"
-      ]
-    }
-  },
-  {
     "title": "AR2-4FV: Anchored Referring and Re-identification for Long-Term Grounding in Fixed-View Videos",
     "authors": [
       "Teng Yan",
@@ -117320,37 +116523,6 @@
     }
   },
   {
-    "title": "SIGMA: A Physics-Based Benchmark for Gas Chimney Understanding in Seismic Images",
-    "authors": [
-      "Bao Truong",
-      "Quang Nguyen",
-      "Baoru Huang",
-      "Jinpei Han",
-      "Van Nguyen",
-      "Ngan Le",
-      "Minh-Tan Pham",
-      "Doan Huy Hien",
-      "Anh Nguyen"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Truong_SIGMA_A_Physics-Based_Benchmark_for_Gas_Chimney_Understanding_in_Seismic_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Truong_SIGMA_A_Physics-Based_Benchmark_for_Gas_Chimney_Understanding_in_Seismic_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Truong_SIGMA_A_Physics-Based_CVPR_2026_supplemental.pdf",
-    "abstract": "Seismic images reconstruct subsurface reflectivity from field recordings, guiding exploration and reservoir monitoring. Gas chimneys are vertical anomalies caused by subsurface fluid migration. Understanding these phenomena is crucial for assessing hydrocarbon potential and avoiding drilling hazards. However, accurate detection is challenging due to strong seismic attenuation and scattering. Traditional physics-based methods are computationally expensive and sensitive to model errors, while deep learning offers efficient alternatives, yet lacks labeled datasets. In this work, we introduce SIGMA, a new physics-informed dataset for gas chimney understanding in seismic images, featuring (i) pixel-level gas-chimney mask for detection and (ii) paired degraded and ground-truth image for enhancement. We employed physics-based methods that cover a wide range of geological settings and data acquisition conditions. Comprehensive experiments demonstrate that SIGMA serves as a challenging benchmark for gas chimney interpretation and benefits general seismic understanding.",
-    "categories": [
-      "高效模型与压缩",
-      "数据集、评测与合成数据"
-    ],
-    "matched_keywords": {
-      "高效模型与压缩": [
-        "efficient"
-      ],
-      "数据集、评测与合成数据": [
-        "dataset",
-        "benchmark"
-      ]
-    }
-  },
-  {
     "title": "TeFlow: Enabling Multi-frame Supervision for Self-Supervised Feed-forward Scene Flow Estimation",
     "authors": [
       "Qingwen Zhang",
@@ -118090,25 +117262,6 @@
       "数据集、评测与合成数据": [
         "dataset",
         "evaluation"
-      ]
-    }
-  },
-  {
-    "title": "Factorize, Reconstruct, Enhance: A Unified Framework for Multimodal Sentiment Analysis",
-    "authors": [
-      "Zhilu Yang",
-      "Mingcheng Li"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Factorize_Reconstruct_Enhance_A_Unified_Framework_for_Multimodal_Sentiment_Analysis_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_Factorize_Reconstruct_Enhance_A_Unified_Framework_for_Multimodal_Sentiment_Analysis_CVPR_2026_paper.pdf",
-    "supplemental_url": "",
-    "abstract": "Multimodal Sentiment Analysis (MSA) aims to comprehensively and robustly interpret human emotions by integrating information from verbal, visual and acoustic modalities. However, the performance of existing models is often hampered by two key challenges: insufficient multilayer semantic extraction inherent to modalities and static feature fusion, leading to low performance. Therefore, this paper proposes a Multi-factor Factor-Decoupling and Semantics-enhanced Fusion Framework for accurate multimodal sentiment analysis. First, each modality is decomposed into three orthogonal subspaces based on a multidimensional information separation mechanism, which is regulated by a contrast constraint for subspace separation, an information gain constraint for maximizing the capture of task-relevant features, and a pairwise constraint for ensuring complementary subspaces. Subsequently, a variational purification strategy is introduced to further ensure the semantic integrity of each sentiment representation. Finally, the fusion module computes the adaptive fusion weights in parallel using multiple orthogonal factors such as sample-level modality saliency, global subspace type importance and feature-level internal attention. Extensive experiments on three datasets demonstrate the effectiveness of the proposed method.",
-    "categories": [
-      "视觉语言与多模态"
-    ],
-    "matched_keywords": {
-      "视觉语言与多模态": [
-        "multimodal"
       ]
     }
   },
@@ -122727,46 +121880,6 @@
     }
   },
   {
-    "title": "TrajTok: Learning Trajectory Tokens Enhances Video Understanding",
-    "authors": [
-      "Chenhao Zheng",
-      "Jieyu Zhang",
-      "Jianing Zhang",
-      "Weikai Huang",
-      "Ashutosh Kumar",
-      "Quan Kong",
-      "Oncel Tuzel",
-      "Chun-Liang Li",
-      "Ranjay Krishna"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_TrajTok_Learning_Trajectory_Tokens_Enhances_Video_Understanding_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zheng_TrajTok_Learning_Trajectory_Tokens_Enhances_Video_Understanding_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Zheng_TrajTok_Learning_Trajectory_CVPR_2026_supplemental.pdf",
-    "abstract": "Tokenization in video models, typically through patchification, generates an excessive and redundant number of tokens. This severely limits video efficiency and scalability. While the recent trajectory-based tokenizers offer a promising solution by decoupling video duration from token count, they rely on complex, external segmentation and tracking pipelines that are slow and task-agnostic. We propose TrajTok, an end-to-end video tokenizer module that is fully integrated and co-trained with video models for a downstream objective, dynamically adapting its token granularity to semantic complexity, independent of video duration. TrajTok contains a unified segmenter that performs implicit clustering over pixels in both space and time to directly produce object trajectories in a single forward pass. By prioritizing downstream adaptability over pixel-perfect segmentation fidelity, TrajTok is lightweight, efficient, and yet empirically improves video understanding performance. With TrajTok, we implement a video CLIP model trained from scratch (TrajViT2). It achieves the best accuracy at scale across both classification and retrieval benchmarks, while maintaining efficiency comparable to the best token-merging methods. TrajTok also proves to be a versatile component beyond its role as a tokenizer. We show that it can be seamlessly integrated as either a probing head for pretrained visual features (TrajAdapter) or an alignment connector in vision-language models (TrajVLM) with especially strong performance in long-video reasoning.",
-    "categories": [
-      "视觉语言与多模态",
-      "视频理解与时序建模",
-      "跟踪与运动估计",
-      "高效模型与压缩"
-    ],
-    "matched_keywords": {
-      "视觉语言与多模态": [
-        "vision-language"
-      ],
-      "视频理解与时序建模": [
-        "video understanding"
-      ],
-      "跟踪与运动估计": [
-        "tracking"
-      ],
-      "高效模型与压缩": [
-        "efficient",
-        "efficiency",
-        "lightweight"
-      ]
-    }
-  },
-  {
     "title": "3D-VCD: Hallucination Mitigation in 3D-LLM Embodied Agents through Visual Contrastive Decoding",
     "authors": [
       "Makanjuola Adekunmi Ogunleye",
@@ -126420,36 +125533,6 @@
       ],
       "事件相机与计算成像": [
         "coded aperture"
-      ]
-    }
-  },
-  {
-    "title": "Evaluating Generative Models via One-Dimensional Code Distributions",
-    "authors": [
-      "Zexi Jia",
-      "Pengcheng Luo",
-      "Yijia Zhong",
-      "Jinchao Zhang",
-      "Jie Zhou"
-    ],
-    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jia_Evaluating_Generative_Models_via_One-Dimensional_Code_Distributions_CVPR_2026_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jia_Evaluating_Generative_Models_via_One-Dimensional_Code_Distributions_CVPR_2026_paper.pdf",
-    "supplemental_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Jia_Evaluating_Generative_Models_CVPR_2026_supplemental.pdf",
-    "abstract": "Most evaluations of generative models rely on feature-distribution metrics such as FID, which operate on continuous recognition features that are explicitly trained to be invariant to appearance variations, and thus discard cues critical for perceptual quality. We instead evaluate models in the space of discrete visual tokens, where modern 1D image tokenizers compactly encode both semantic and perceptual information and quality manifests as predictable token statistics. We introduce Codebook Histogram Distance(CHD), a training-free distribution metric in token space, and Code Mixture Model Score(CMMS), a no-reference quality metric learned from synthetic degradations of token sequences. To stress-test metrics under broad distribution shifts, we further propose VisForm, a benchmark of 210K images spanning 62 visual forms and 11 generative models with expert annotations. Across AGIQA, HPDv2/3, and VisForm, our token-based metrics achieve state-of-the-art correlation with human judgments, and we will release all code and datasets to facilitate future research.",
-    "categories": [
-      "生成模型与内容生成",
-      "检测、分割与识别",
-      "数据集、评测与合成数据"
-    ],
-    "matched_keywords": {
-      "生成模型与内容生成": [
-        "generative model"
-      ],
-      "检测、分割与识别": [
-        "recognition"
-      ],
-      "数据集、评测与合成数据": [
-        "benchmark"
       ]
     }
   },

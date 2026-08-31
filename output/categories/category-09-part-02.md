@@ -1,13 +1,11 @@
 # 跟踪与运动估计
 
-- 本页范围：301–367
-- 分类总数：367
+- 本页范围：301–365
+- 分类总数：365
 - 返回：[分类索引](../README.md)
 
 单/多目标跟踪、光流、场景流、对应关系和相机运动估计。
 
-- **[SpikeTrack: High-performance and Energy-efficient Event-Based Object Tracking with Spiking Neural Network](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_SpikeTrack_High-performance_and_Energy-efficient_Event-Based_Object_Tracking_with_Spiking_Neural_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_SpikeTrack_High-performance_and_Energy-efficient_Event-Based_Object_Tracking_with_Spiking_Neural_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_SpikeTrack_High-performance_and_Energy-efficient_Event-Based_Object_Tracking_with_Spiking_Neural_CVPR_2026_paper.pdf)) — 命中：`object tracking, tracking`
-  - 作者：Yang Wang, Jiqing Zhang, Chuanyu Sun, Qianhui Liu, Huilin Ge, Ziqi Wei, Xin Yang
 - **[SplatSuRe: Selective Super-Resolution for Multi-view Consistent 3D Gaussian Splatting](https://openaccess.thecvf.com/content/CVPR2026/html/Asthana_SplatSuRe_Selective_Super-Resolution_for_Multi-view_Consistent_3D_Gaussian_Splatting_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Asthana_SplatSuRe_Selective_Super-Resolution_for_Multi-view_Consistent_3D_Gaussian_Splatting_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Asthana_SplatSuRe_Selective_Super-Resolution_for_Multi-view_Consistent_3D_Gaussian_Splatting_CVPR_2026_paper.pdf)) — 命中：`camera pose`
   - 作者：Pranav Asthana, Alex Hanson, Allen Tu, Tom Goldstein, Matthias Zwicker, Amitabh Varshney
 - **[SurgCoT: Advancing Spatiotemporal Reasoning in Surgical Videos through a Chain-of-Thought Benchmark](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_SurgCoT_Advancing_Spatiotemporal_Reasoning_in_Surgical_Videos_through_a_Chain-of-Thought_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_SurgCoT_Advancing_Spatiotemporal_Reasoning_in_Surgical_Videos_through_a_Chain-of-Thought_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_SurgCoT_Advancing_Spatiotemporal_Reasoning_in_Surgical_Videos_through_a_Chain-of-Thought_CVPR_2026_paper.pdf)) — 命中：`tracking`
@@ -62,8 +60,6 @@
   - 作者：Hao Dong, Yujin Liu, Haoyue Liu, Zhenyu Wang, Shihan Peng, Zhiwei Shi, Yi Chang, Luxin Yan
 - **[Tracking-Guided 4D Generation: Foundation-Tracker Motion Priors for 3D Model Animation](https://openaccess.thecvf.com/content/CVPR2026/html/Sun_Tracking-Guided_4D_Generation_Foundation-Tracker_Motion_Priors_for_3D_Model_Animation_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Sun_Tracking-Guided_4D_Generation_Foundation-Tracker_Motion_Priors_for_3D_Model_Animation_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Sun_Tracking-Guided_4D_Generation_Foundation-Tracker_Motion_Priors_for_3D_Model_Animation_CVPR_2026_paper.pdf)) — 命中：`tracking`
   - 作者：Su Sun, Cheng Zhao, Himangi Mittal, Gaurav Mittal, Rohith Kukkala, Yingjie Victor Chen, Mei Chen
-- **[TrajTok: Learning Trajectory Tokens Enhances Video Understanding](https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_TrajTok_Learning_Trajectory_Tokens_Enhances_Video_Understanding_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_TrajTok_Learning_Trajectory_Tokens_Enhances_Video_Understanding_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Zheng_TrajTok_Learning_Trajectory_Tokens_Enhances_Video_Understanding_CVPR_2026_paper.pdf)) — 命中：`tracking`
-  - 作者：Chenhao Zheng, Jieyu Zhang, Jianing Zhang, Weikai Huang, Ashutosh Kumar, Quan Kong, Oncel Tuzel, Chun-Liang Li, Ranjay Krishna
 - **[TROPHIES: Temporal Reconstruction of Places, Humans, and Cameras from Multi-view Videos](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_TROPHIES_Temporal_Reconstruction_of_Places_Humans_and_Cameras_from_Multi-view_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_TROPHIES_Temporal_Reconstruction_of_Places_Humans_and_Cameras_from_Multi-view_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_TROPHIES_Temporal_Reconstruction_of_Places_Humans_and_Cameras_from_Multi-view_CVPR_2026_paper.pdf)) — 命中：`camera pose`
   - 作者：Jinpeng Liu, Yukang Xu, Yutong Li, Xingyu Liu
 - **[TruckDrive: Long-Range Autonomous Highway Driving Dataset](https://openaccess.thecvf.com/content/CVPR2026/html/Ghilotti_TruckDrive_Long-Range_Autonomous_Highway_Driving_Dataset_CVPR_2026_paper.html)** ([主页](https://openaccess.thecvf.com/content/CVPR2026/html/Ghilotti_TruckDrive_Long-Range_Autonomous_Highway_Driving_Dataset_CVPR_2026_paper.html) / [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Ghilotti_TruckDrive_Long-Range_Autonomous_Highway_Driving_Dataset_CVPR_2026_paper.pdf)) — 命中：`tracking`
